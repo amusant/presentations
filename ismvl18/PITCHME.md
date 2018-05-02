@@ -7,7 +7,7 @@
 <span style="font-family:Helvetica Neue; color blue;font-size:0.4em;font-weight:bold"> Sumanta Chaudhuri </b></span>|
 
 <span style="font-family:Helvetica Neue; color blue;font-size:0.4em;font-weight:bold"> Telecom ParisTech </b></span>|
-<span style="font-family:Helvetica Neue; color blue;font-size:0.4em; font-weight:bold"> 46, Rue Barrault Paris  </b></span> 
+<span style="font-family:Helvetica Neue; color blue;font-size:0.4em; font-weight:bold"> Paris, FRANCE  </b></span> 
 +++
 <div>
 Sumanta Chaudhuri
