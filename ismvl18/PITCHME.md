@@ -34,45 +34,44 @@
 ##### Overall Goal: A Quaternary FPGA
 +++
 ##### Basic Blocks : Donwliteral Converters
-
-<div id="images">
-	<a>
+<div id="header" style="height:15%;width:100%;">
+    <div style='float:left'>
 <img src="https://perso.telecom-paristech.fr/chaudhur/tmp/dlcs.svg" width="500"/>
-	</a>
-	<a>
-<table style="width:30%">
-  <tr>
-    <th>input</th>
-    <th>DLC0</th> 
-    <th>DLC1</th> 
-    <th>DLC2</th> 
-  </tr>
-  <tr>
-    <th>0</th>
-    <th>3</th> 
-    <th>3</th> 
-    <th>3</th> 
-  </tr>
-  <tr>
-    <th>1</th>
-    <th>0</th> 
-    <th>3</th> 
-    <th>3</th> 
-  </tr>
-  <tr>
-    <th>2</th>
-    <th>0</th> 
-    <th>0</th> 
-    <th>3</th> 
-  </tr>
-  <tr>
-    <th>3</th>
-    <th>0</th> 
-    <th>0</th> 
-    <th>0</th> 
-  </tr>
-</table>
-	</a>
+    </div>
+    <div style='float:leftt'>
+        <table border="1" width="44" style="margin-left:30%;float:top;"> 
+  		<tr>
+  		  <th>input</th>
+  		  <th>DLC0</th> 
+  		  <th>DLC1</th> 
+  		  <th>DLC2</th> 
+  		</tr>
+  		<tr>
+  		  <th>0</th>
+  		  <th>3</th> 
+  		  <th>3</th> 
+  		  <th>3</th> 
+  		</tr>
+  		<tr>
+  		  <th>1</th>
+  		  <th>0</th> 
+  		  <th>3</th> 
+  		  <th>3</th> 
+  		</tr>
+  		<tr>
+  		  <th>2</th>
+  		  <th>0</th> 
+  		  <th>0</th> 
+  		  <th>3</th> 
+  		</tr>
+  		<tr>
+  		  <th>3</th>
+  		  <th>0</th> 
+  		  <th>0</th> 
+  		  <th>0</th> 
+  		</tr>
+        </table>
+    </div>
 </div>
 +++
 ##### Basic Blocks : Multiplexers
