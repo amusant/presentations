@@ -5,6 +5,6 @@
 
 <span style="color:gray; font-size:0.7em">Inline Image at <b>Absolute URL</b></span>
 
-![Image-Absolute](https://github.com/amusant/tpt39/blob/tmpdev/assets/cluster.svg)
+![Image-Absolute](https://perso.telecom-paristech.fr/chaudhur/tmp/4VL_FF.svg)
 
 
