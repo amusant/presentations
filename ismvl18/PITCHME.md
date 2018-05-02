@@ -34,46 +34,7 @@
 ##### Overall Goal: A Quaternary FPGA
 +++
 ##### Basic Blocks : Donwliteral Converters
-<div style='float:left'>
-<img src="https://perso.telecom-paristech.fr/chaudhur/tmp/dlcs.svg" width="600"/>
-</div>
-<div style='float:left'>
-        <table width="30%"> 
-  		<tr>
-  		  <td>input</td>
-  		  <td>DLC0</td> 
-  		  <td>DLC1</td> 
-  		  <td>DLC2</td> 
-  		</tr>
-  		<tr>
-  		  <td>0</td>
-  		  <td>3</td> 
-  		  <td>3</td> 
-  		  <td>3</td> 
-  		</tr>
-  		<tr>
-  		  <td>1</td>
-  		  <td>0</td> 
-  		  <td>3</td> 
-  		  <td>3</td> 
-  		</tr>
-  		<tr>
-  		  <td>2</td>
-  		  <td>0</td> 
-  		  <td>0</td> 
-  		  <td>3</td> 
-  		</tr>
-  		<tr>
-  		  <td>3</td>
-  		  <td>0</td> 
-  		  <td>0</td> 
-  		  <td>0</td> 
-  		</tr>
-        </table>
-</div>
-+++
-##### Basic Blocks : Multiplexers
-<table style="width:100%">
+<table style="width:50%">
   		<tr>
   		  <td>input</td>
   		  <td>DLC0</td> 
@@ -105,6 +66,13 @@
   		  <td>0</td> 
   		</tr>
 </table>
++++
+##### Basic Blocks : Donwliteral Converters
+<div style='float:left'>
+<img src="https://perso.telecom-paristech.fr/chaudhur/tmp/dlcs.svg" width="600"/>
+</div>
++++
+##### Basic Blocks : Multiplexers
 +++
 ##### Basic Blocks : Quaternary Lookup Tables
 +++
