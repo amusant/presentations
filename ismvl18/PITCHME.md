@@ -35,7 +35,7 @@
 +++
 ##### Basic Blocks : Donwliteral Converters
 <div style='float:left'>
-<img src="https://perso.telecom-paristech.fr/chaudhur/tmp/dlcs.svg" width="400"/>
+<img src="https://perso.telecom-paristech.fr/chaudhur/tmp/dlcs.svg" width="600"/>
 </div>
 <div style='float:left'>
         <table border="1" width="1" style="margin-left:30%;float:top;"> 
