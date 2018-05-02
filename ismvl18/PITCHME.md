@@ -40,34 +40,34 @@
 <div style='float:right'>
         <table border="1" width="44" style="margin-left:30%;float:top;"> 
   		<tr>
-  		  <th>input</th>
-  		  <th>DLC0</th> 
-  		  <th>DLC1</th> 
-  		  <th>DLC2</th> 
+  		  <td>input</td>
+  		  <td>DLC0</td> 
+  		  <td>DLC1</td> 
+  		  <td>DLC2</td> 
   		</tr>
   		<tr>
-  		  <th>0</th>
-  		  <th>3</th> 
-  		  <th>3</th> 
-  		  <th>3</th> 
+  		  <td>0</td>
+  		  <td>3</td> 
+  		  <td>3</td> 
+  		  <td>3</td> 
   		</tr>
   		<tr>
-  		  <th>1</th>
-  		  <th>0</th> 
-  		  <th>3</th> 
-  		  <th>3</th> 
+  		  <td>1</td>
+  		  <td>0</td> 
+  		  <td>3</td> 
+  		  <td>3</td> 
   		</tr>
   		<tr>
-  		  <th>2</th>
-  		  <th>0</th> 
-  		  <th>0</th> 
-  		  <th>3</th> 
+  		  <td>2</td>
+  		  <td>0</td> 
+  		  <td>0</td> 
+  		  <td>3</td> 
   		</tr>
   		<tr>
-  		  <th>3</th>
-  		  <th>0</th> 
-  		  <th>0</th> 
-  		  <th>0</th> 
+  		  <td>3</td>
+  		  <td>0</td> 
+  		  <td>0</td> 
+  		  <td>0</td> 
   		</tr>
         </table>
 </div>
