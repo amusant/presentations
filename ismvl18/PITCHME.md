@@ -1,5 +1,5 @@
-### Beyond Bits:A Quaternary FPGA Architecture using Multi-Vt Multi-Vdd FDSOI Devices
-##### Sumanta Chaudhuri 
+#### Beyond Bits:A Quaternary FPGA Architecture using Multi-Vt Multi-Vdd FDSOI Devices
+###### Sumanta Chaudhuri 
 +++
 @title[Images]
 
