@@ -21,16 +21,10 @@
 <img src="https://perso.telecom-paristech.fr/chaudhur/tmp/backbias.svg" width=400/> <img src="https://perso.telecom-paristech.fr/chaudhur/tmp/fdsoi.svg", width="300"/>
 ---
 ##### State of the Art: FDSOI
-<div id="images">
-    <a>
-        <img src="https://perso.telecom-paristech.fr/chaudhur/tmp/backbias.svg" width="400">
-        <div class="caption">Caption 1</div>
-    </a>
-    <a>
-        <img src="https://perso.telecom-paristech.fr/chaudhur/tmp/fdsoi.svg" width="400"> 
-        <div class="caption">Caption 2</div>
-    </a>
-</div>
+<img src="https://perso.telecom-paristech.fr/chaudhur/tmp/backbias.svg" width="400">
+<div class="caption">Caption 1</div>
+<img src="https://perso.telecom-paristech.fr/chaudhur/tmp/fdsoi.svg" width="400"> 
+<div class="caption">Caption 2</div>
 +++
 ##### Overall Goal: A Quaternary FPGA
 +++
