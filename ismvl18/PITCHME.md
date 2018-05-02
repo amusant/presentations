@@ -1,4 +1,4 @@
-###### Beyond Bits:A Quaternary FPGA Architecture using Multi-`$$V_t$$` Multi-`$$V_{dd}$$` FDSOI Devices
+###### Beyond Bits:A Quaternary FPGA Architecture using Multi-`\(V_t\)` Multi-`\(V_{dd}\)` FDSOI Devices
 <span style="color:blue;font-size:0.4em"> Sumanta Chaudhuri </b></span>
 <span style="color:blue;font-size:0.4em"> Telecom ParisTech </b></span>
 <span style="color:blue;font-size:0.4em"> 46, Rue Barrault Paris  </b></span>
