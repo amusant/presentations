@@ -11,32 +11,32 @@
 +++
 <img src="https://perso.telecom-paristech.fr/chaudhur/tmp/4vl_2vl_mux.svg" width="200"/> <img src="https://perso.telecom-paristech.fr/chaudhur/tmp/4VL_FF.svg" width="300"/>
 +++
-@title[Motivation: Bits, Trits or Quits ?]
+#####Motivation: Bits, Trits or Quits ?
 ---
-@title[Motivation: Compute or Communicate ?]
+#####Motivation: Compute or Communicate ?
 ---
-@title[Motivation: Cost of Interconnect ]
+#####Motivation: Cost of Interconnect 
 +++
-@title[State of the Art: Related Works]
+#####State of the Art: Related Works
 ---
-@title[State of the Art: FDSOI]
+#####State of the Art: FDSOI
 +++
-@title[Overall Goal: A Quaternary FPGA]
+#####Overall Goal: A Quaternary FPGA
 +++
-@title[Basic Blocks : Donwliteral Converters]
+#####Basic Blocks : Donwliteral Converters
 +++
-@title[Basic Blocks : Multiplexers]
+#####Basic Blocks : Multiplexers
 +++
-@title[Basic Blocks : Quaternary Lookup Tables]
+#####Basic Blocks : Quaternary Lookup Tables
 +++
-@title[Basic Blocks : Quaternay Flip-Flops]
+#####Basic Blocks : Quaternay Flip-Flops
 +++
-@title[Basic Blocks : B2Q]
+#####Basic Blocks : B2Q
 +++
-@title[Basic Blocks : Q2B]
+#####Basic Blocks : Q2B
 
 +++
-@title[Images]
+#####Images
 
 
 ![Image-Absolute](https://perso.telecom-paristech.fr/chaudhur/tmp/4VL_FF.svg)
