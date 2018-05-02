@@ -8,12 +8,36 @@
 
 <span style="font-family:Helvetica Neue; color blue;font-size:0.4em;font-weight:bold"> Telecom ParisTech </b></span>
 <span style="font-family:Helvetica Neue; color blue;font-size:0.4em; font-weight:bold"> Paris, FRANCE  </b></span> 
+++
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](https://perso.telecom-paristech.fr/chaudhur/tmp/4vl_2vl_mux.svg)  |  ![](https://perso.telecom-paristech.fr/chaudhur/tmp/4VL_FF.svg)
 +++
-<div>
-Sumanta Chaudhuri
-Telecom ParisTech
-46, Rue Barrault Paris
-</div>
+@title[Motivation: Bits, Trits or Quits ?]
+---
+@title[Motivation: Compute or Communicate ?]
+---
+@title[Motivation: Cost of Interconnect ]
++++
+@title[State of the Art: Related Works]
+---
+@title[State of the Art: FDSOI]
++++
+@title[Overall Goal: A Quaternary FPGA]
++++
+@title[Basic Blocks : Donwliteral Converters]
++++
+@title[Basic Blocks : Multiplexers]
++++
+@title[Basic Blocks : Quaternary Lookup Tables]
++++
+@title[Basic Blocks : Quaternay Flip-Flops]
++++
+@title[Basic Blocks : B2Q]
++++
+@title[Basic Blocks : Q2B]
+
++++
 @title[Images]
 
 
