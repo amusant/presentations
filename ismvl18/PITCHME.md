@@ -73,7 +73,7 @@
 </div>
 +++
 ##### Basic Blocks : Multiplexers
-        <table width="30%"> 
+<table style="width:100%">
   		<tr>
   		  <td>input</td>
   		  <td>DLC0</td> 
@@ -104,8 +104,7 @@
   		  <td>0</td> 
   		  <td>0</td> 
   		</tr>
-        </table>
-</div>
+</table>
 +++
 ##### Basic Blocks : Quaternary Lookup Tables
 +++
