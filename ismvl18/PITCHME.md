@@ -4,9 +4,9 @@
 
 ###### <span style="color:#e49436">Beyond Bits</span>:A Quaternary FPGA Architecture using Multi-`\(V_t\)` Multi-`\(V_{dd}\)` FDSOI Devices
 
-<span style="font-family:Helvetica Neue; color blue;font-size:0.4em;font-weight:bold"> Sumanta Chaudhuri </b></span>|
+<span style="font-family:Helvetica Neue; color blue;font-size:0.4em;font-weight:bold"> Sumanta Chaudhuri </b></span>
 
-<span style="font-family:Helvetica Neue; color blue;font-size:0.4em;font-weight:bold"> Telecom ParisTech </b></span>|
+<span style="font-family:Helvetica Neue; color blue;font-size:0.4em;font-weight:bold"> Telecom ParisTech </b></span>
 <span style="font-family:Helvetica Neue; color blue;font-size:0.4em; font-weight:bold"> Paris, FRANCE  </b></span> 
 +++
 <div>
