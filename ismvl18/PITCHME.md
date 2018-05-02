@@ -73,6 +73,39 @@
 </div>
 +++
 ##### Basic Blocks : Multiplexers
+        <table width="30%"> 
+  		<tr>
+  		  <td>input</td>
+  		  <td>DLC0</td> 
+  		  <td>DLC1</td> 
+  		  <td>DLC2</td> 
+  		</tr>
+  		<tr>
+  		  <td>0</td>
+  		  <td>3</td> 
+  		  <td>3</td> 
+  		  <td>3</td> 
+  		</tr>
+  		<tr>
+  		  <td>1</td>
+  		  <td>0</td> 
+  		  <td>3</td> 
+  		  <td>3</td> 
+  		</tr>
+  		<tr>
+  		  <td>2</td>
+  		  <td>0</td> 
+  		  <td>0</td> 
+  		  <td>3</td> 
+  		</tr>
+  		<tr>
+  		  <td>3</td>
+  		  <td>0</td> 
+  		  <td>0</td> 
+  		  <td>0</td> 
+  		</tr>
+        </table>
+</div>
 +++
 ##### Basic Blocks : Quaternary Lookup Tables
 +++
