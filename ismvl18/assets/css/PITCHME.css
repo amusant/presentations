@@ -1,0 +1,14 @@
+.reveal pre code {
+  font-size: 0.8em;
+  line-height: 1.0;
+}
+
+.reveal pre {
+  width: 100%;
+  margin-left: 0%;
+}
+.reveal section img {
+  border: 0;
+  box-shadow: none;
+}
+
