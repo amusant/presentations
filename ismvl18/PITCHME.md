@@ -37,7 +37,7 @@
 <div style='float:left'>
 <img src="https://perso.telecom-paristech.fr/chaudhur/tmp/dlcs.svg" width="400"/>
 </div>
-<div style='float:right'>
+<div style='float:left'>
         <table border="1" width="4" style="margin-left:30%;float:top;"> 
   		<tr>
   		  <td>input</td>
