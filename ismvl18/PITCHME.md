@@ -18,8 +18,19 @@
 ##### Motivation: Cost of Interconnect 
 +++
 ##### State of the Art: Related Works
+<img src="https://perso.telecom-paristech.fr/chaudhur/tmp/backbias.svg" width=400/> <img src="https://perso.telecom-paristech.fr/chaudhur/tmp/fdsoi.svg", width="300"/>
 ---
 ##### State of the Art: FDSOI
+<div id="images">
+    <a>
+        <img src="https://perso.telecom-paristech.fr/chaudhur/tmp/backbias.svg" width="400">
+        <div class="caption">Caption 1</div>
+    </a>
+    <a>
+        <img src="https://perso.telecom-paristech.fr/chaudhur/tmp/fdsoi.svg" width="400"> 
+        <div class="caption">Caption 2</div>
+    </a>
+</div>
 +++
 ##### Overall Goal: A Quaternary FPGA
 +++
@@ -59,13 +70,9 @@
 ---
 ![Image-Absolute](https://perso.telecom-paristech.fr/chaudhur/tmp/4vl_routing.svg)
 ---
-![Image-Absolute](https://perso.telecom-paristech.fr/chaudhur/tmp/backbias.svg)
----
 ![Image-Absolute](https://perso.telecom-paristech.fr/chaudhur/tmp/clb.svg)
 ---
 ![Image-Absolute](https://perso.telecom-paristech.fr/chaudhur/tmp/dlcs.svg)
----
-![Image-Absolute](https://perso.telecom-paristech.fr/chaudhur/tmp/fdsoi.svg)
 ---
 ![Image-Absolute](https://perso.telecom-paristech.fr/chaudhur/tmp/ff_wv_wr.svg)
 ---
