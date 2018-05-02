@@ -35,7 +35,7 @@
 +++
 ##### Basic Blocks : Donwliteral Converters
 <img src="https://perso.telecom-paristech.fr/chaudhur/tmp/dlcs.svg" width="500"/>
-<table style="width:50%">
+<table style="width:30%">
   <tr>
     <th>input</th>
     <th>DLC0</th> 
