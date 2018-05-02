@@ -18,7 +18,6 @@
 ##### Motivation: Cost of Interconnect 
 +++
 ##### State of the Art: Related Works
-<img src="https://perso.telecom-paristech.fr/chaudhur/tmp/backbias.svg" width=400/> <img src="https://perso.telecom-paristech.fr/chaudhur/tmp/fdsoi.svg", width="300"/>
 ---
 ##### State of the Art: FDSOI
 <div id="images">
@@ -35,6 +34,40 @@
 ##### Overall Goal: A Quaternary FPGA
 +++
 ##### Basic Blocks : Donwliteral Converters
+---
+![Image-Absolute](https://perso.telecom-paristech.fr/chaudhur/tmp/dlcs.svg)
+<table style="width:100%">
+  <tr>
+    <th>input</th>
+    <th>DLC0</th> 
+    <th>DLC1</th> 
+    <th>DLC2</th> 
+  </tr>
+  <tr>
+    <th>0</th>
+    <th>3</th> 
+    <th>3</th> 
+    <th>3</th> 
+  </tr>
+  <tr>
+    <th>1</th>
+    <th>0</th> 
+    <th>3</th> 
+    <th>3</th> 
+  </tr>
+  <tr>
+    <th>2</th>
+    <th>0</th> 
+    <th>0</th> 
+    <th>3</th> 
+  </tr>
+  <tr>
+    <th>3</th>
+    <th>0</th> 
+    <th>0</th> 
+    <th>0</th> 
+  </tr>
+</table>
 +++
 ##### Basic Blocks : Multiplexers
 +++
@@ -45,6 +78,15 @@
 ##### Basic Blocks : B2Q
 +++
 ##### Basic Blocks : Q2B
+
++++ 
+##### FPGA Modelling Tool: VPR 
++++ 
+##### VPR Parameters
++++
+##### Experiments: Candidate Architectures
++++
+##### Experiments: Results
 
 +++
 #####Images
@@ -71,8 +113,6 @@
 ![Image-Absolute](https://perso.telecom-paristech.fr/chaudhur/tmp/4vl_routing.svg)
 ---
 ![Image-Absolute](https://perso.telecom-paristech.fr/chaudhur/tmp/clb.svg)
----
-![Image-Absolute](https://perso.telecom-paristech.fr/chaudhur/tmp/dlcs.svg)
 ---
 ![Image-Absolute](https://perso.telecom-paristech.fr/chaudhur/tmp/ff_wv_wr.svg)
 ---
