@@ -8,10 +8,8 @@
 
 <span style="font-family:Helvetica Neue; color blue;font-size:0.4em;font-weight:bold"> Telecom ParisTech </b></span>
 <span style="font-family:Helvetica Neue; color blue;font-size:0.4em; font-weight:bold"> Paris, FRANCE  </b></span> 
-++
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![](https://perso.telecom-paristech.fr/chaudhur/tmp/4vl_2vl_mux.svg)  |  ![](https://perso.telecom-paristech.fr/chaudhur/tmp/4VL_FF.svg)
++++
+<img src="https://perso.telecom-paristech.fr/chaudhur/tmp/4vl_2vl_mux.svg" width="200"/> <img src="https://perso.telecom-paristech.fr/chaudhur/tmp/4VL_FF.svg" width="300"/>
 +++
 @title[Motivation: Bits, Trits or Quits ?]
 ---
