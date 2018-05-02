@@ -34,7 +34,12 @@
 ##### Overall Goal: A Quaternary FPGA
 +++
 ##### Basic Blocks : Donwliteral Converters
+
+<div id="images">
+	<a>
 <img src="https://perso.telecom-paristech.fr/chaudhur/tmp/dlcs.svg" width="500"/>
+	</a>
+	<a>
 <table style="width:30%">
   <tr>
     <th>input</th>
@@ -67,6 +72,8 @@
     <th>0</th> 
   </tr>
 </table>
+	</a>
+</div>
 +++
 ##### Basic Blocks : Multiplexers
 +++
