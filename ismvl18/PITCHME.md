@@ -5,9 +5,9 @@
 <span style="font-family:Helvetica Neue; color blue;font-size:0.4em; font-weight:bold"> 46, Rue Barrault Paris  </b></span>
 +++
 <div>
-Sumanta Chaudhuri 
-Telecom ParisTech  
-46, Rue Barrault Paris 
+Sumanta Chaudhuri
+Telecom ParisTech
+46, Rue Barrault Paris
 </div>
 @title[Images]
 
