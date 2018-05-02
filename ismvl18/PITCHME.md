@@ -38,7 +38,7 @@
 <img src="https://perso.telecom-paristech.fr/chaudhur/tmp/dlcs.svg" width="600"/>
 </div>
 <div style='float:left'>
-        <table border="1" width="1" style="margin-left:30%;float:top;"> 
+        <table width="400"> 
   		<tr>
   		  <td>input</td>
   		  <td>DLC0</td> 
