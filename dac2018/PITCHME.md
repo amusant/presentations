@@ -36,21 +36,24 @@
 
 ---
 ### Attacker Model
--Embedded |
+- Embedded |
 	- The attacker is a third-party Supplier  of FPGA librarires (App Store) |
 	- The User himself trying to break DRMs. |
 	- concerned FPGAs: Cyclone V, Zynq 7000 |
 ---
 ### Existing Attacks in the SoC Domain
 
+---
 ### SoCFPGA: Architecture Overview
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" width="200"/> 
 
+---
 ### SoCFPGA: Architecture Overview
 
+---
 ### Existing Counter-Measures in the SoCFPGA
 
-
+---
 +++
 
 
