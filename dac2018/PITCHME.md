@@ -27,7 +27,7 @@
 	- Sceanrio A : High Performance Computing |
 	- Scenario B : Embedded |
 ---
-### Attacker Model
+###" Attacker Model
 - HPC |
 	- The attacker is an ordinary user of a SoCFPGA cluster |
 	- She executes her code under the guise of compute intensive tasks. |
@@ -35,23 +35,23 @@
 	- Concerned FPGAs: Zynq UltraScale+, Arria W, Stratix X |
 
 ---
-### Attacker Model
+#### Attacker Model
 - Embedded |
 	- The attacker is a third-party Supplier  of FPGA librarires (App Store) |
 	- The User himself trying to break DRMs. |
 	- concerned FPGAs: Cyclone V, Zynq 7000 |
 ---
-### Existing Attacks in the SoC Domain
+#### Existing Attacks in the SoC Domain
 
 ---
-### SoCFPGA: Architecture Overview
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" width="200"/> 
+#### SoCFPGA: Architecture Overview
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" width="600"/> 
 
 ---
-### SoCFPGA: Architecture Overview
+#### SoCFPGA: Architecture Overview
 
 ---
-### Existing Counter-Measures in the SoCFPGA
+#### Existing Counter-Measures in the SoCFPGA
 
 ---
 +++
