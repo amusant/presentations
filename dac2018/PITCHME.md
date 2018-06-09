@@ -27,7 +27,7 @@
 	- Sceanrio A : High Performance Computing |
 	- Scenario B : Embedded |
 ---
-###" Attacker Model
+### Attacker Model
 - HPC |
 	- The attacker is an ordinary user of a SoCFPGA cluster |
 	- She executes her code under the guise of compute intensive tasks. |
@@ -49,11 +49,36 @@
 
 ---
 #### SoCFPGA: Architecture Overview
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" width="600"/> 
 
 ---
-#### Existing Counter-Measures in the SoCFPGA
+#### Existing Counter-Measures in the SoCFPGA : TrustZone
+- TrustZone
+	- Framework encompassing both Hardware and Software
+- SoftWare
+	- Secure & Non-Secure World Abstractions
+	- Monitor Mode which handles the transition from one worls to another
+	- Secure TEEs (Trusted Execution Environments) run in the Secure World
+		- e.g SierraTEE, Toppers
+	- Rich OS Android, Linux, RTOS
+---
+#### TrustZone : Hardware
+-	Each master can be Secure/Non-Secure/Per Transaction
+-	Firewalls (Programmable at Runtime)
+-	Cache Security Bit (33rd bit)
 
 ---
+
+#### Existing Secuirty Measures: SoCFPGA
+
+- Memory Protection Unit
+	- can define memory wones with granularity.
+		- e.g 1MB in Cyclone V, 64MB in Zynq
+	- control access based on Address Range, Master Id, Master Port
+
+- Secure Cache Access
+	- Secuirty State of teh masters must be the same as that of the processor
+
 +++
 
 
