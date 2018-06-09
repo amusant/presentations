@@ -11,6 +11,14 @@
 ---
 #### Context: Traditional Security Woes
 
+- SoC Security
+	- Secure Boot |
+	- Digital Rights Management |
+	- Attacks Against OS
+- FPGA Security 
+	- Bitstream Security |
+	- Tampering |
+	- Power/EM Side Channels
 ---
 
 
