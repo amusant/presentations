@@ -46,7 +46,7 @@
 ---
 #### SoCFPGA: Architecture Overview
 <!--- <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.png" width="600"/> --->
-![Logo](./assets/zynqcyclone.png)
+![Logo](http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.png)
 
 
 ---
