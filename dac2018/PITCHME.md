@@ -272,7 +272,7 @@
 
 ---?code=assets/src/dma0.asm&lang=asm&title=Disassembly of log10 function at python(2.7) numpy umath.so library
 @[4](Replacing the jump to log10 function by jump to mod function)
-
+---
 #### Exepriments: Cache Timing Attacks to break ASLR
 - In the first phase, FPGA accelerator kernel scans the 
   memory space with a step of 4KBytes and offset equal to 
