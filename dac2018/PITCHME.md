@@ -172,7 +172,27 @@
 	- GCC like checks to detect buffer overflows. in OpenCL
 	- Block traffic during context switch.
 	
-
+---
+#### Cache Timing Attacks
+- Attacks
+	- CTA to breeak ASLR
+	- CTA to guess program behaviour.
+		- to guess cryptographic keys
+- Countermeasures
+	- SoCFPGAs with ACP and without SMMU are vulnerable.
+	- A MMU dan be programmed into FPGA.
+	- Blocking Cache access during cryptographic routines.
+---
+#### Rowhammer
+- Attacks
+	- Particularly easy from FPGA. High speed/low latency memory access.
+	- A maximum no. of memory accesses within the refresh interval.
+	- FPGAs have direct links to DDR.
+- Countermeasures
+	- For effective attacks need to break ASLR first.
+	- Obfuscation of physical address (since linux kernel 4.0)
+	- Error correction codes (SECDED is  not enough.)
+	- Target Row Refresh
 ---
 #### Security Vulnerabilities
 @title[Piecemeal Tables]
@@ -234,7 +254,22 @@
     <td>@fa[check]</td>
   </tr>
 </table>
-+++
+
+---
+#### Exepriments: DMA Code Injection
+
+-  The host program creates memory pressure by allocating arrays,
+ and using those arrays in memory.
+
+- In a separate process, the numpy module from python is loaded
+  which forces the load of the umath.so library.
+
+- The FPGA accelerator kernel scans through the CMA area for
+  the following string âe28fc600;e28cca44;e5bcfd68â which is the
+  signature of the log10 function.
+
 
 
 ---
+#### Exepriments: DMA Code Injection
++++?code=src/dma0.asm&lang=asm&title=Disassembly of log10 function at python(2.7) numpy umath.so library
