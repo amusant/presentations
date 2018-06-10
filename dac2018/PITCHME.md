@@ -50,6 +50,7 @@
 ---
 #### SoCFPGA: Architecture Overview I
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" width="600"/> 
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" width="600"/> 
 
 <!--only inline/background images  work in pdf export -->
 +++?image=https://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg&size=auto 60%
@@ -57,6 +58,7 @@
 <!--@title[Les fabricants] -->
 ---
 #### SoCFPGA: Architecture Overview II
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" width="600"/> 
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" width="600"/> 
 
 ---
@@ -303,6 +305,7 @@
 ---
 #### Rowhammer
 <!--![diag](http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/map.svg) {width=10%} -->
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/map.svg" width="600"/> 
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/map.svg" width="600"/> 
 ---
 #### Synthesis Results & Runtime
