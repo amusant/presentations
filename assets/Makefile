@@ -4,3 +4,6 @@
 %.png:%.svg
 	convert $*.svg $*.png
 
+copy:
+	scp chaudhur@perso-chaudhur.lxc.enst.fr:/home/chaudhur/www/images/hsa_security/
+
