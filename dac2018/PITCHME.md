@@ -152,6 +152,22 @@
   </tr>
 </table>
 
+
+---
+#### Attacks
+- Direct Memory Attacks
+- Cache Timing Attacks
+- Rowhammer
+
+--- Direct Memory Attacks
+- Attacks
+	- DMA through Contiguous Memory
+	- DMA through Cache
+	- DMA Buffer Overflow
+	- DMA through SMMU update window
+- Countermeasures
+	
+
 ---
 #### Security Vulnerabilities
 @title[Piecemeal Tables]
