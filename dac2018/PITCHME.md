@@ -111,12 +111,16 @@
   <tr>
     <td>FireWalls</td>
     <td>@fa[check]</td>
-    <td>@fa[fa-check]</td>
+    <td>@fa[check]</td>
+    <td>@fa[check]</td>
+    <td>@fa[check]</td>
   </tr>
   <tr class="fragment">
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
+    <td>MPU at DDR Controller</td>
+    <td>@fa[check]</td>
+    <td>@fa[check]</td>
+    <td>@fa[times]</td>
+    <td>@fa[times]</td>
   </tr>
   <tr class="fragment">
     <td>John</td>
