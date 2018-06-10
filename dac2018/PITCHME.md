@@ -48,7 +48,7 @@
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.png" width="600"/>
 ---
 #### SoCFPGA: Architecture Overview
-![diag](http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg)
+![diag](http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg) {:height="36px" width="36px"}
 
 
 ---?image=assets/zynqcyclone.png&size=auto 60%
