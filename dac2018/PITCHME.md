@@ -97,19 +97,21 @@
 	- Ease of programmability.
 	- Fine Grain Security for memory access (4KB)
 ---
-#### 
+#### Architectural Features
 @title[Piecemeal Tables]
 
 <table>
   <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
-    <th>Age</th>
+    <th>Features</th>
+    <th>Arch1</th>
+    <th>Arch2</th>
+    <th>Arch3</th>
+    <th>Arch4</th>
   </tr>
   <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>25</td>
+    <td>FireWalls</td>
+    <td>@fa[check]</td>
+    <td>@fa[fa-check]</td>
   </tr>
   <tr class="fragment">
     <td>Eve</td>
