@@ -167,6 +167,10 @@
 	- DMA Buffer Overflow
 	- DMA through SMMU update window
 - Countermeasures
+	- Reserving memory away from Linux Kernel
+	- Reconfiguring Firewalls to block cache access
+	- GCC like checks to detect buffer overflows. in OpenCL
+	- Block traffic during context switch.
 	
 
 ---
