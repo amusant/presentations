@@ -50,7 +50,7 @@
 -->
 ---
 #### SoCFPGA: Architecture Overview I
-![diag](http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg) {:height="36px" width="36px"}
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/synqcyclone.svg" width="600"/> 
 
 <!--only inline/background images  work in pdf export -->
 <!-- image=https://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg&size=auto 60%
