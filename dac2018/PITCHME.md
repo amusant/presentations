@@ -302,3 +302,56 @@
 #### Rowhammer
 <!--![diag](http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/map.svg) {width=10%} -->
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/map.svg" width="600"/> 
+---
+#### Synthesis Results & Runtime
+
+<table>
+  <tr>
+    <th>Attack Type</th>
+    <th>EXP. A</th>
+    <th>EXP. B</th>
+    <th>EXP. C</th>
+    <th>Ref. Kernel</th>
+  </tr>
+  <tr>
+    <td>LEs</td>
+    <td>8145</td>
+    <td>17767</td>
+    <td>9724</td>
+    <td>216146</td>
+  </tr>
+  <tr class="fragment">
+    <td>FFs</td>
+    <td>15434</td>
+    <td>33202</td>
+    <td>18058</td>
+    <td>375931</td>
+  </tr>
+  <tr class="fragment">
+    <td>RAMS</td>
+    <td>275 Kbit</td>
+    <td>269 Kbit </td>
+    <td>283 Kbit </td>
+    <td>245 Kbit </td>
+  </tr>
+  <tr class="fragment">
+    <td>DSP</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1064</td>
+  </tr>
+  <tr class="fragment">
+    <td>Freq. (MHz)</td>
+    <td>143.55</td>
+    <td>131.84</td>
+    <td>149.99</td>
+    <td>143.55</td>
+  </tr>
+  <tr class="fragment">
+    <td>Runtime</td>
+    <td>~10 min</td>
+    <td>10 s</td>
+    <td>16 Hours</td>
+    <td>NA</td>
+</table>
