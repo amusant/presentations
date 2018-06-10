@@ -53,13 +53,13 @@
 ![diag](http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg) {:height="36px" width="36px"}
 
 <!--only inline/background images  work in pdf export -->
----?image=https://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg&size=auto 60%
-<span style="color:gray; font-size:0.7em">SoCFPGA Architectures II<b></b></span>
+<!-- image=https://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg&size=auto 60%
+<span style="color:gray; font-size:0.7em">SoCFPGA Architectures II<b></b></span> -->
 
 @title[Les fabricants]
 ---
 #### SoCFPGA: Architecture Overview III
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" width="600"/> 
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/ULTRASCALE.svg" width="600"/> 
 
 ---
 #### Existing Counter-Measures in the SoCFPGA : TrustZone
