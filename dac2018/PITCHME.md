@@ -44,20 +44,20 @@
 #### Existing Attacks in the SoC Domain
 
 ---
+<!---
 #### SoCFPGA: Architecture Overview
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.png" width="600"/>
+-->
 ---
 #### SoCFPGA: Architecture Overview
 ![diag](http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg) {:height="36px" width="36px"}
 
-
----?image=assets/zynqcyclone.png&size=auto 60%
+<!--only inline/background images  work in pdf export -->
+---?http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg 60%
 <span style="color:gray; font-size:0.7em">SoCFPGA Architectures<b></b></span>
 
 @title[Les fabricants]
-
 ---
-
 #### SoCFPGA: Architecture Overview
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" width="600"/> 
 
