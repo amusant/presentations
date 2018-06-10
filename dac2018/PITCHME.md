@@ -45,7 +45,7 @@
 
 ---
 #### SoCFPGA: Architecture Overview
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" width="600"/> 
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.png" width="600"/> 
 
 ---
 #### SoCFPGA: Architecture Overview
@@ -77,7 +77,17 @@
 	- control access based on Address Range, Master Id, Master Port
 
 - Secure Cache Access
-	- Secuirty State of teh masters must be the same as that of the processor
+	- Secuirty State of the masters using ACP must be the same as that of the processor
+	- 
+
+#### Existing Secuirty Measures: SMMU
+- System MMU/IOMMU 
+	- MMU is the main memory protection mechanism in OS/SoC.
+	- SMMU/IOMMU provides the same functionality for accelerators.
+	- Ease of programmability.
+	- Fine Grain Security for memory access (4KB)
+#### 
+
 
 +++
 
