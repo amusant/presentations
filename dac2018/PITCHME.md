@@ -50,6 +50,10 @@
 
 
 ---
++++?image=assets/zynqcyclone.png&size=auto 80%
+@title[Les fabricants]
+
+
 #### SoCFPGA: Architecture Overview
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" width="600"/> 
 
