@@ -297,7 +297,9 @@
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/ptetable1.svg" width="400"/> 
 ---
 #### Rowhammer
-![diag](assets/rowhammer_issi_16x256.png) {width=10%}
+<!--![diag](http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/rowhammer_issi_16x256.svg) {width=10%} -->
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/rowhammer_issi_16x256.svg" width="600"/> 
 ---
 #### Rowhammer
-![diag](assets/map.png) {width=10%}
+<!--![diag](http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/map.svg) {width=10%} -->
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/map.svg" width="600"/> 
