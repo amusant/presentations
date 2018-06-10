@@ -181,6 +181,9 @@
 	- A MMU dan be programmed into FPGA.
 	- Blocking Cache access during cryptographic routines.
 ---
+#### Latency
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/lathist.svg" width="600"/> 
+---
 #### Rowhammer
 - Attacks
 	- Particularly easy from FPGA. High speed/low latency memory access.
