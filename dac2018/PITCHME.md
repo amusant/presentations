@@ -49,7 +49,7 @@
 ![Logo](http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.png)
 
 
----?image=assets/zynqcyclone.png&size=auto 80%
+---?image=assets/zynqcyclone.png&size=auto 60%
 
 @title[Les fabricants]
 
