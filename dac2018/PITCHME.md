@@ -27,7 +27,7 @@
 	- Sceanrio A : High Performance Computing |
 	- Scenario B : Embedded |
 ---
-### Attacker Model
+#### Attacker Model
 - HPC |
 	- The attacker is an ordinary user of a SoCFPGA cluster |
 	- She executes her code under the guise of compute intensive tasks. |
@@ -46,11 +46,10 @@
 ---
 
 #### SoCFPGA: Architecture Overview
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.png" width="600"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.png" width="400"/>
 ---
 #### SoCFPGA: Architecture Overview I
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" width="600"/> 
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" width="600"/> 
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" width="400"/> 
 
 <!--only inline/background images  work in pdf export -->
 +++?image=https://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg&size=auto 60%
@@ -58,8 +57,7 @@
 <!--@title[Les fabricants] -->
 ---
 #### SoCFPGA: Architecture Overview II
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" width="600"/> 
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" width="600"/> 
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" width="400"/> 
 
 ---
 #### Existing Counter-Measures in the SoCFPGA : TrustZone
