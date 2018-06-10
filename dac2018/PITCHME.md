@@ -273,4 +273,4 @@
 ---
 #### Exepriments: DMA Code Injection
 +++?code=assets/src/dma0.asm&lang=asm&title=Disassembly of log10 function at python(2.7) numpy umath.so library
-+++?code=assets/src/dma0.asm&lang=asm&title=Disassembly of log10 function at python(2.7) numpy umath.so library @[4]
+@[4](Replacing the jump to log10 function by jump to mod function)
