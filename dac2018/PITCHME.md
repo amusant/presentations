@@ -329,10 +329,10 @@
   </tr>
   <tr class="fragment">
     <td>RAMS</td>
-    <td>275 Kbit</td>
-    <td>269 Kbit </td>
-    <td>283 Kbit </td>
-    <td>245 Kbit </td>
+    <td>275 Kb</td>
+    <td>269 Kb </td>
+    <td>283 Kb </td>
+    <td>245 Kb </td>
   </tr>
   <tr class="fragment">
     <td>DSP</td>
