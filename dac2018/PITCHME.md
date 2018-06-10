@@ -303,8 +303,7 @@
 ---
 #### Rowhammer
 <!--![diag](http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/map.svg) {width=10%} -->
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/map.svg" width="600"/> 
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/map.svg" width="600"/> 
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/map.svg" width="400"/> 
 ---
 #### Synthesis Results & Runtime
 
