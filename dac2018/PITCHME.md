@@ -50,6 +50,7 @@
 
 
 ---?image=assets/zynqcyclone.png&size=auto 60%
+<span style="color:gray; font-size:0.7em">SoCFPGA Architectures<b></b></span>
 
 @title[Les fabricants]
 
