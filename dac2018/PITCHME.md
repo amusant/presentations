@@ -292,7 +292,7 @@
 #### Exepriments: Cache Timing Attacks to break ASLR
 ---
 #### Rowhammer
-![diag](assets/rowhammer_issi_16x256.png) {:height="36px" width="36px"}
+![diag](assets/rowhammer_issi_16x256.png) {width=50%}
 ---
 #### Rowhammer
-![diag](assets/map.png) {:height="36px" width="36px"}
+![diag](assets/map.png) {width=50%}
