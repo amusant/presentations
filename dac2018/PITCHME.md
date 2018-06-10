@@ -159,7 +159,8 @@
 - Cache Timing Attacks
 - Rowhammer
 
---- Direct Memory Attacks
+--- 
+#### Direct Memory Attacks
 - Attacks
 	- DMA through Contiguous Memory
 	- DMA through Cache
