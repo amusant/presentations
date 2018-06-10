@@ -123,9 +123,32 @@
     <td>@fa[times]</td>
   </tr>
   <tr class="fragment">
-    <td>John</td>
-    <td>Doe</td>
-    <td>43</td>
+    <td>33rd 'NS' bit for Cache</td>
+    <td>@fa[times]</td>
+    <td>@fa[check]</td>
+    <td>@fa[times]</td>
+    <td>@fa[times]</td>
+  </tr>
+  <tr class="fragment">
+    <td>System MMU</td>
+    <td>@fa[times]</td>
+    <td>@fa[times]</td>
+    <td>@fa[check]</td>
+    <td>@fa[check]</td>
+  </tr>
+  <tr class="fragment">
+    <td>ACP Present</td>
+    <td>@fa[check]</td>
+    <td>@fa[check]</td>
+    <td>@fa[check]</td>
+    <td>@fa[times]</td>
+  </tr>
+  <tr class="fragment">
+    <td>CCI</td>
+    <td>@fa[times]</td>
+    <td>@fa[times]</td>
+    <td>@fa[check]</td>
+    <td>@fa[check]</td>
   </tr>
 </table>
 
