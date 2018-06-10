@@ -53,7 +53,7 @@
 ![diag](http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg) {:height="36px" width="36px"}
 
 <!--only inline/background images  work in pdf export -->
----?https://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.png
+---?image=https://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.png
 <span style="color:gray; font-size:0.7em">SoCFPGA Architectures II<b></b></span>
 
 @title[Les fabricants]
