@@ -270,7 +270,21 @@
 
 
 
----
-#### Exepriments: DMA Code Injection
-+++?code=assets/src/dma0.asm&lang=asm&title=Disassembly of log10 function at python(2.7) numpy umath.so library
+---?code=assets/src/dma0.asm&lang=asm&title=Disassembly of log10 function at python(2.7) numpy umath.so library
 @[4](Replacing the jump to log10 function by jump to mod function)
+
+#### Exepriments: Cache Timing Attacks to break ASLR
+- In the first phase, FPGA accelerator kernel scans the 
+  memory space with a step of 4KBytes and offset equal to 
+  the virtual address offset. 
+
+- In the 2nd phase, the host program, accesses the target virtual
+  address (e.g beginning of the GNU libc), and at the same time
+  FPGA measures the latency, so the target address has a high
+  probability to get low latency.
+
+#### Exepriments: Cache Timing Attacks to break ASLR
+-  next we rank addresses w.r.t the latency data from both phases
+ and we use the following equation to calculate final ranks.
+
+`$$rank = \frac{\left|rank_{latency}(phase 1)-rank_{latency}(phase 2)\right|}{rank_{latency}(phase 2)}$$`
