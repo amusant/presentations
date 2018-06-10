@@ -290,9 +290,9 @@
 `$$rank = \frac{\left|rank_{latency}(phase 1)-rank_{latency}(phase 2)\right|}{rank_{latency}(phase 2)}$$`
 ---
 #### Exepriments: Cache Timing Attacks to break ASLR
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/raw1.png" width="200"/> 
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/raw2.png" width="200"/> 
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/ptetable1.svg" width="200"/> 
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/raw1.png" width="600"/> 
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/raw2.png" width="600"/> 
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/ptetable1.svg" width="600"/> 
 ---
 #### Rowhammer
 ![diag](assets/rowhammer_issi_16x256.png) {width=50%}
