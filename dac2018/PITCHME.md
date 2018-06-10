@@ -49,16 +49,16 @@
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.png" width="600"/>
 -->
 ---
-#### SoCFPGA: Architecture Overview
+#### SoCFPGA: Architecture Overview I
 ![diag](http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg) {:height="36px" width="36px"}
 
 <!--only inline/background images  work in pdf export -->
----?http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.png
-<span style="color:gray; font-size:0.7em">SoCFPGA Architectures<b></b></span>
+---?https://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.png
+<span style="color:gray; font-size:0.7em">SoCFPGA Architectures II<b></b></span>
 
 @title[Les fabricants]
 ---
-#### SoCFPGA: Architecture Overview
+#### SoCFPGA: Architecture Overview III
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" width="600"/> 
 
 ---
