@@ -50,6 +50,7 @@
 
 
 ---?image=assets/zynqcyclone.png&size=auto 80%
+
 @title[Les fabricants]
 
 ---
