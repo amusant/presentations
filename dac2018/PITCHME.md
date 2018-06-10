@@ -55,10 +55,9 @@
 <!--only inline/background images  work in pdf export -->
 <!-- image=https://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg&size=auto 60%
 <span style="color:gray; font-size:0.7em">SoCFPGA Architectures II<b></b></span> -->
-
-@title[Les fabricants]
+<!--@title[Les fabricants] -->
 ---
-#### SoCFPGA: Architecture Overview III
+#### SoCFPGA: Architecture Overview II
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" width="600"/> 
 
 ---
@@ -89,7 +88,7 @@
 - Secure Cache Access
 	- Secuirty State of the masters using ACP must be the same as that of the processor
 	- 
-
+---
 #### Existing Secuirty Measures: SMMU
 - System MMU/IOMMU 
 	- MMU is the main memory protection mechanism in OS/SoC.
