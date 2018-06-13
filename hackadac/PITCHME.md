@@ -60,7 +60,7 @@
 - In HackaDac we assume simple HW adversary
 	- set of attackes `\(A_0\)`=Processor, `\(A_1\)`=JTAG, `\(A_2\)`=SPI, `\(A_3\)`=GPIO
 	- Secure Perspective: Processor/Software `\(A_0\)`
-	- Hacker Perspective: Access from hardware pins. `\({A_1,A_2,A_3\)`
+	- Hacker Perspective: Access from hardware pins. `\({A_1,A_2,A_3}\)`
 	
 ---
 #### Differential Memory Scan
