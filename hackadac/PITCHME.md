@@ -18,6 +18,7 @@
 - A clear idea of what are protecting and from whom ?
 - What would we like to have:
 	- Divide the attacker spaces into several sets. not necessarlily disjoint.
+`$${A_0,A_1\ldots A_n} $$`
 
 	- clearly specify each set with SystemVerilog Assertions.
 	-e.g simple hardware adversary: 
