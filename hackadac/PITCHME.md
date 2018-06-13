@@ -31,12 +31,16 @@
 - Example Security Objectives:
 	- `\(A_0,A_5\)` can't acces `\({M_{10},M_{11}}\)`
 	- if `\(A_0,A_5\)` access  `\(M_{10}\)` implies `\(\overline{\{A_0,A_5\}}\)`  can't access `\({M_{10},M_{11}}\)`
-can't access 
 ---
 #### First Things First: Bug Classification
 - Functional Bugs
+	- e.g JTAG port is wide open
+	- Protocol Bugs
+    - Bugs arising from hardware and software specified separately
 
 - RTL Bugs
+	- Arising from poor coding techniques.
+	- trying to meet other constraints (e.g timing)
 
 
 
