@@ -73,54 +73,31 @@ from interaction of different hardware/software blocks.
 	- Secure Perspective: Software running in Secure World
 	- Hacker Perspective: Software/hardware 
 ---
-#### Existing Attacks in the SoC Domain
+#### Differential Memory Scan
 
 ---
 
-#### SoCFPGA: Architecture Overview
+#### Differential Memory Scan
 ---
-#### SoCFPGA: Architecture Overview I
+#### Differential Code Coverage
 
 
 ---
-#### Existing Counter-Measures in the SoCFPGA : TrustZone
+#### Differential Code Coverage
 ---
-#### TrustZone : Hardware
+#### Our Method Applied to Pulpino
 ---
 
-#### Existing Secuirty Measures: SoCFPGA
+#### Our Method Applied to Pulpino
 ---
-#### Existing Secuirty Measures: SMMU
+#### Our Method Applied to Pulpino
 ---
-#### Architectural Features
+#### Bugs Found
 ---
-#### Attacks
+#### Bugs Found
 --- 
-#### Direct Memory Attacks
+#### Bugs Not Found ?
 ---
-#### Cache Timing Attacks
+#### Conclusion
 ---
-#### Latency
----
-#### Rowhammer
----
-#### Security Vulnerabilities
----
-#### Exepriments: DMA Code Injection
----?code=assets/src/dma0.asm&lang=asm&title=Disassembly of log10 function at python(2.7) numpy umath.so library
-@[4](Replacing the jump to log10 function by jump to mod function)
----
-#### Exepriments: Cache Timing Attacks to break ASLR
----
-#### Exepriments: Cache Timing Attacks to break ASLR
----
-#### Exepriments: Cache Timing Attacks to break ASLR
----
-#### Exepriments: Cache Timing Attacks to break ASLR
----
-#### Rowhammer
----
-#### Rowhammer
----
-#### Synthesis Results & Runtime
 
