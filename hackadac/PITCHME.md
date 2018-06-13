@@ -18,10 +18,22 @@
 - A clear idea of what are protecting and from whom ?
 - What would we like to have:
 	- Divide the attacker spaces into several sets. not necessarlily disjoint.
+
 	- clearly specify each set with SystemVerilog Assertions.
 	-e.g simple hardware adversary: 
+---
+#### First Things First: The Security Objective
+- 
+---
 #### First Things First: Bug Classification
-#### Method
+- Functional Bugs
+
+- RTL Bugs
+
+
+
+---
+#### Our Methods
 - Differntial Memory Scan.
 	- A way to find functional Bugs.
 - Differential Code Coverage.
