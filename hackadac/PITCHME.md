@@ -56,7 +56,7 @@
 	- Secure Perspective
 	- Hacker Perspective
 
-e.g
+-e.g
 - In HackaDac we assume simple HW adversary
 	- set of attackes `\(A_0\)`=Processor, `\(A_1\)`=JTAG, `\(A_2\)`=SPI, `\(A_3\)`=GPIO
 	- Secure Perspective: Processor/Software `\(A_0\)`
