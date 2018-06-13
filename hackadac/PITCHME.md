@@ -7,6 +7,7 @@
 <span style="font-family:Helvetica Neue; color blue;font-size:0.4em;font-weight:bold"> Sumanta Chaudhuri, Michael Timbert, Xuan Thuy Ngo, Sylvain Guilley</b></span>
 
 <span style="font-family:Helvetica Neue; color blue;font-size:0.4em;font-weight:bold"> Telecom ParisTech, Secure IC</b></span>
+
 <span style="font-family:Helvetica Neue; color blue;font-size:0.4em; font-weight:bold"> Paris, FRANCE  </b></span> 
 ---
 #### Context: Traditional Security Woes
