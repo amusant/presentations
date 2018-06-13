@@ -48,6 +48,10 @@
 #### Our Methods
 - Differntial Memory Scan.
 	- A way to find functional Bugs.
+	- It might also find functional bugs but our main goal is to catch bugs which arise 
+from interaction of different hardware/software blocks.
+	- RTL is not the best place to find functional bugs.
+
 - Differential Code Coverage.
 	- A way to find RTL bugs.
 ---
