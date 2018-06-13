@@ -10,14 +10,39 @@
 
 <span style="font-family:Helvetica Neue; color blue;font-size:0.4em; font-weight:bold"> Paris, FRANCE  </b></span> 
 ---
-#### Context: Traditional Security Woes
+#### Context
 
 ---
-#### Scope & Attacker Model 
+
+#### First Things First: The Attacker Model
+- A clear idea of what are protecting and from whom ?
+- What would we like to have:
+	- Divide the attacker spaces into several sets. not necessarlily disjoint.
+	- clearly specify each set with SystemVerilog Assertions.
+	-e.g simple hardware adversary: 
+#### First Things First: Bug Classification
+#### Method
+- Differntial Memory Scan.
+	- A way to find functional Bugs.
+- Differential Code Coverage.
+	- A way to find RTL bugs.
 ---
-#### Attacker Model
+#### Differential Memory Scan
+- Perspectives
+	- Secure Perspective
+	- Hacker Perspective
+
+e.g
+- In HackaDac we assume simple HW adversary
+	- Secure Perspective: Processor/Software
+	- Hacker Perspective: Access from hardware pins.
+	
 ---
-#### Attacker Model
+#### Differential Memory Scan
+- More complicated Examples
+- Trustzone
+	- Secure Perspective: Software running in Secure World
+	- Hacker Perspective: Software/hardware 
 ---
 #### Existing Attacks in the SoC Domain
 
