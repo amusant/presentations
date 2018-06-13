@@ -29,8 +29,9 @@
 	- A set of memory zones `$${M_0,M_1\ldots M_n} $$`
 	- A set of Attackers/Users `$${A_0,A_1\ldots A_n} $$ 
 - Example Security Objectives:
-	- `\(A_0,A_5\)` can't acces `\{M_{10},M_{11}\}`
-	- if `\{A_0,A_5\}` access `M_{10}` `\overline{\{A_0,A_5\}}` 
+	- `\(A_0,A_5\)` can't acces `\({M_{10},M_{11}}\)`
+	- if `\(A_0,A_5\)` access `\(M_{10}\)` `\(\overline{\{A_0,A_5\}}\)` 
+can't access 
 ---
 #### First Things First: Bug Classification
 - Functional Bugs
