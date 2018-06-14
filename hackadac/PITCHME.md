@@ -73,8 +73,12 @@ from interaction of different hardware/software blocks.
 	- Secure Perspective: Software running in Secure World
 	- Hacker Perspective: Software/hardware 
 ---
-#### Differential Memory Scan
+#### Differential Memory Scan : Pseudocode
 
+---?code=hackadac/src/diffscan.c&lang=asm&title=PseudoCode of Differential Memory Scan
+@[4](A set of Attackers)
+---?code=hackadac/src/diffscan.c&lang=asm&title=PseudoCode of Differential Memory Scan
+@[4](A set of memory zones)
 ---
 
 #### Differential Memory Scan
