@@ -7,10 +7,10 @@
 <span style="font-family:Helvetica Neue; color blue;font-size:0.4em;font-weight:bold"> 
 Sumanta Chaudhuri, Michaël Timbert, Xuan Thuy Ngo, Sylvain Guilley<br>
 Telecom ParisTech, Secure-IC<br>
+Paris, FRANCE <br>
 </b></span>
 
-<span style="font-family:Helvetica Neue; color blue;font-size:0.4em; font-weight:bold"> Paris, FRANCE  </b></span> 
-<img src="" width="400"/>
+<img src="assets/TelecomParisTech_logo_80.png" width="400"/>
 ---
 #### Context
 - Modern day SoCs incorporate hundreds of third party IPs.
