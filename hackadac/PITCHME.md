@@ -78,10 +78,8 @@ from interaction of different hardware/software blocks.
 - Trustzone
 	- Secure POV: Software running in Secure World
 	- Hacker POV: Software/hardware 
----
-#### Differential Memory Scan : Pseudocode
 
-?code=hackadac/src/diffscan.c&lang=asm&title=PseudoCode of Differential Memory Scan
+---?code=hackadac/src/diffscan.c&lang=asm&title=Differential Memory Scan : Pseudocode
 @[1](A set of memory zones)
 @[2](A set of Attackers)
 @[3](A set of secuirity objectives (Assertions))
@@ -91,9 +89,14 @@ from interaction of different hardware/software blocks.
 ---
 #### Pulpino Memory MAP
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/mmap.svg" width="300"/>
----
-#### Differential Memory Scan : Pulpino
----?code=hackadac/src/pulpino.c&lang=asm&title=PseudoCode of Differential Memory Scan
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/pulpino_block.svg" width="400"/>
+
+
+
+---?code=hackadac/src/pulpino.c&lang=asm&title=Differential Memory Scan : Pulpino
+
+
+
 ---
 #### Differential Code Coverage
 
