@@ -70,11 +70,10 @@ Paris, FRANCE </br>
 	- Secure TEEs (Trusted Execution Environments) run in the Secure World
 		- e.g SierraTEE, Toppers
 	- Rich OS Android, Linux, RTOS
----
-#### TrustZone : Hardware
--	Each master can be Secure/Non-Secure/Per Transaction
--	Firewalls (Programmable at Runtime)
--	Cache Security Bit (33rd bit)
+- Hardware
+	-	Each master can be Secure/Non-Secure/Per Transaction
+	-	Firewalls (Programmable at Runtime)
+	-	Cache Security Bit (33rd bit)
 
 ---
 
@@ -87,9 +86,7 @@ Paris, FRANCE </br>
 
 - Secure Cache Access
 	- Secuirty State of the masters using ACP must be the same as that of the processor
-	- 
----
-#### Existing Secuirty Measures: SMMU
+
 - System MMU/IOMMU 
 	- MMU is the main memory protection mechanism in OS/SoC.
 	- SMMU/IOMMU provides the same functionality for accelerators.
