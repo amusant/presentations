@@ -3,6 +3,12 @@ img[alt=diag] { width: 60;}
 	font-weight: bold;
 }
 
+.reveal section p {
+    font-weight: bold !important;
+    font-size: 0.65em !important;
+}
+
+
 .reveal table th,
 .reveal table td {
 	text-align: left;
