@@ -1,7 +1,9 @@
 img[alt=diag] { width: 60;}
 
 
-
+.reveal p{
+	font-size: 0.55em;
+}
 
 .reveal table th {
 	font-weight: bold;
