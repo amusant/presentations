@@ -84,7 +84,7 @@ from interaction of different hardware/software blocks.
 
 ---
 #### Pulpino Memory MAP
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/mmap.svg" width="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/mmap.svg" width="300"/>
 
 #### Differential Memory Scan
 ---
