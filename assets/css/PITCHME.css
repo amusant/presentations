@@ -6,6 +6,7 @@ img[alt=diag] { width: 60;}
 .reveal table th,
 .reveal table td {
 	text-align: left;
+	font-size: 0.55em;
 	padding: 0.2em 0.5em 0.2em 0.5em;
 	border-bottom: 1px solid;
 }
