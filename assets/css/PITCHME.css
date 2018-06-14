@@ -23,7 +23,7 @@ font-size:60%
 /* ordered and unordered list styles */
 .reveal ul, 
 .reveal ol {
-    font-size: 50%;
+    font-size: 75%;
 }
 .reveal .smallText{ font-size:60%}
 
