@@ -81,7 +81,10 @@ from interaction of different hardware/software blocks.
 @[3](A set of secuirity objectives (Assertions))
 @[4](Dividing into security objectives)
 @[5-6](Scan & Check in parallel)
+
 ---
+#### Pulpino Memory MAP
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/mmap.svg" width="400"/>
 
 #### Differential Memory Scan
 ---
