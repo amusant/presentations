@@ -4,10 +4,13 @@
 <!-- .slide: class="center" -->
 ###### <span style="color:#e49436">A Security Vulnerability Analysis of SoCFPGA Architectures</span>
 
-<span style="font-family:Helvetica Neue; color blue;font-size:0.4em;font-weight:bold"> Sumanta Chaudhuri </b></span>
+<span style="font-family:Helvetica Neue; color blue;font-size:0.4em;font-weight:bold"> 
+Sumanta Chaudhuri</br>
+Telecom ParisTech</br>
+Paris, FRANCE </br>
+</b></span>
 
-<span style="font-family:Helvetica Neue; color blue;font-size:0.4em;font-weight:bold"> Telecom ParisTech </b></span>
-<span style="font-family:Helvetica Neue; color blue;font-size:0.4em; font-weight:bold"> Paris, FRANCE  </b></span> 
+<img src="assets/TelecomParisTech_logo_80.png" style="position:absolute; left:900px; top:-200px;" width="50"/>
 ---
 #### Context: Traditional Security Woes
 
@@ -34,8 +37,6 @@
 	- e.g AMAZON AWS |
 	- Concerned FPGAs: Zynq UltraScale+, Arria W, Stratix X |
 
----
-#### Attacker Model
 - Embedded |
 	- The attacker is a third-party Supplier  of FPGA librarires (App Store) |
 	- The User himself trying to break DRMs. |
