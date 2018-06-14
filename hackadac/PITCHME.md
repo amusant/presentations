@@ -108,6 +108,38 @@ from interaction of different hardware/software blocks.
 #### Bugs Found
 ---
 #### Bugs Found
+<table>
+  <tr>
+    <th>Attack</th>
+    <th>Type</th>
+    <th>Method Used</th>
+  </tr>
+  <tr>
+    <td>Boot address can be changed through SPI & sleep pin</td>
+    <td>Functional</td>
+    <td>Differential Scan</td>
+  </tr>
+  <tr class="fragment">
+    <td>Boot address can be changed through JTAG & sleep pin</td>
+    <td>Functional</td>
+    <td>Differential Scan</td>
+  </tr>
+  <tr class="fragment">
+    <td>GPIOs can be read through JTAG/SPI</td>
+    <td>Functional</td>
+    <td>Differential Scan</td>
+  </tr>
+  <tr class="fragment">
+    <td>Debug Modes can be enabled through JTAG/SPI</td>
+    <td>Functional</td>
+    <td>Differential Scan</td>
+  </tr>
+  <tr class="fragment">
+    <td>JTAG PAssword Scheme is Broken</td>
+    <td>RTL</td>
+    <td>Differential Code Coverage</td>
+  </tr>
+</table>
 --- 
 #### Bugs Not Found ?
 ---
