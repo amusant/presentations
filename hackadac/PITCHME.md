@@ -11,7 +11,10 @@
 <span style="font-family:Helvetica Neue; color blue;font-size:0.4em; font-weight:bold"> Paris, FRANCE  </b></span> 
 ---
 #### Context
-
+- Modern day SoCs incorporate hundreds of third party IPs.
+- All these IPs are specified/design separately.
+- Security bugs arise from their interaction.
+- The goal is to find secuirty bugs during design/integration phase.
 ---
 
 #### First Things First: The Attacker Model
@@ -56,22 +59,22 @@ from interaction of different hardware/software blocks.
 	- A way to find RTL bugs.
 ---
 #### Differential Memory Scan
-- Perspectives
-	- Secure Perspective
-	- Hacker Perspective
+- Ponit of Views (POV)
+	- Secure Ponit of View
+	- Hacker Point of View
 
 -e.g
 - In HackaDac we assume simple HW adversary
 	- set of attackes `\(A_0\)`=Processor, `\(A_1\)`=JTAG, `\(A_2\)`=SPI, `\(A_3\)`=GPIO
-	- Secure Perspective: Processor/Software `\(A_0\)`
-	- Hacker Perspective: Access from hardware pins. `\({A_1,A_2,A_3}\)`
+	- Secure POV: Processor/Software `\(A_0\)`
+	- Hacker POV: Access from hardware pins. `\({A_1,A_2,A_3}\)`
 	
 ---
 #### Differential Memory Scan
 - More complicated Examples
 - Trustzone
-	- Secure Perspective: Software running in Secure World
-	- Hacker Perspective: Software/hardware 
+	- Secure POV: Software running in Secure World
+	- Hacker POV: Software/hardware 
 ---
 #### Differential Memory Scan : Pseudocode
 
@@ -80,13 +83,14 @@ from interaction of different hardware/software blocks.
 @[2](A set of Attackers)
 @[3](A set of secuirity objectives (Assertions))
 @[4](Dividing into security objectives)
-@[5-6](Scan & Check in parallel)
+@[5-7](Scan & Check in parallel)
 
 ---
 #### Pulpino Memory MAP
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/mmap.svg" width="300"/>
-
-#### Differential Memory Scan
+---
+#### Differential Memory Scan : Pulpino
+---?code=hackadac/src/pulpino.c&lang=asm&title=PseudoCode of Differential Memory Scan
 ---
 #### Differential Code Coverage
 
