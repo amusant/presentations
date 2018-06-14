@@ -1,5 +1,5 @@
 .reveal img, .reveal section img { border:0px;}
-
+/*
 .reveal h1,
 .reveal h2,
 .reveal h3,
@@ -7,18 +7,18 @@
 .reveal h5,
 .reveal h6 {
 font-size:60%
-}
+}*/
 /*
 .reveal h6{
 	font-size: 0.75em;
-}
+}*/
 .reveal p{
-	font-size: 0.75em;
+	font-size: 50%;
 }
 
 .reveal table th {
 	font-weight: bold;
-}*/
+}
 
 
 .reveal table th,
