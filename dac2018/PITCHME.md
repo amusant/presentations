@@ -12,7 +12,7 @@ Paris, FRANCE </br>
 
 <img src="assets/TelecomParisTech_logo_80.png" style="position:absolute; left:900px; top:-200px;" width="50"/>
 ---
-#### Context: Traditional Security Woes
+#### Context, Scope & Attacker Models
 
 - SoC Security |
 	- Secure Boot |
@@ -22,8 +22,6 @@ Paris, FRANCE </br>
 	- Bitstream Security |
 	- Tampering |
 	- Power/EM Side Channels |
----
-#### Scope & Attacker Model 
 - Scope |
 	- Attacks on OS mounted from the FPGA  |
 - Attacker Model |
