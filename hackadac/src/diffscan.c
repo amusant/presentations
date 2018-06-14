@@ -1,4 +1,3 @@
-
 M={M0,M1,...} // Memory Zones
 A={A0,A1,...} //Attacker Models
 S={S0,S1,...} // Security Objectives

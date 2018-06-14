@@ -76,9 +76,15 @@ from interaction of different hardware/software blocks.
 #### Differential Memory Scan : Pseudocode
 
 ---?code=hackadac/src/diffscan.c&lang=asm&title=PseudoCode of Differential Memory Scan
-@[4](A set of Attackers)
+@[1](A set of memory zones)
 ---?code=hackadac/src/diffscan.c&lang=asm&title=PseudoCode of Differential Memory Scan
-@[4](A set of memory zones)
+@[2](A set of Attackers)
+---?code=hackadac/src/diffscan.c&lang=asm&title=PseudoCode of Differential Memory Scan
+@[3](A set of secuirity objectives (Assertions))
+---?code=hackadac/src/diffscan.c&lang=asm&title=PseudoCode of Differential Memory Scan
+@[4](Dividing into security objectives)
+---?code=hackadac/src/diffscan.c&lang=asm&title=PseudoCode of Differential Memory Scan
+@[4](Scan & Check in parallel)
 ---
 
 #### Differential Memory Scan
