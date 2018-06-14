@@ -10,7 +10,7 @@ Telecom ParisTech, Secure-IC<br>
 Paris, FRANCE <br>
 </b></span>
 
-<img src="assets/TelecomParisTech_logo_80.png" style="position:absolute; left:800px; top:-200px;" width="50"/>
+<img src="assets/TelecomParisTech_logo_80.png" style="position:absolute; left:900px; top:-200px;" width="50"/>
 ---
 #### Context
 - Modern day SoCs incorporate hundreds of third party IPs.
