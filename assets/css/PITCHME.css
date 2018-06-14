@@ -1,4 +1,4 @@
-img[alt=diag] { border:0px;}
+.reveal img, .reveal section img { border:0px;}
 
 
 .reveal h6{
