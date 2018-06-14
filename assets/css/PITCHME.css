@@ -15,6 +15,16 @@ font-size:60%
 .reveal p{
 	font-size: 50%;
 }*/
+/* heading for slides with two hashes ## */
+.reveal .slides section .slideContent h2 {
+   font-size: 40px;
+}
+
+/* ordered and unordered list styles */
+.reveal ul, 
+.reveal ol {
+    font-size: 50%;
+}
 .reveal .smallText{ font-size:60%}
 
 .reveal table th {
