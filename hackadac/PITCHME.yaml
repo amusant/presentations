@@ -3,4 +3,4 @@ mathjax : TeX-MML-AM_HTMLorMML-full
 transition: none
 vertical-center : false
 layout : top-left
-footnote:
+footnote: "abracadabra"
