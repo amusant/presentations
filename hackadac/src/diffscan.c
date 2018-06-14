@@ -6,3 +6,15 @@ for i in M
 	in parallel:
 	scan(P,i); check_assertions(S);
 
+Pulpino
+
+M={}
+A={A0,A1,...}
+S0=
+for i in M
+	scan(P0,i)
+	store results
+	scan(P1,i)
+	store results
+	compare ane verify assertions
+	
