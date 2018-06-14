@@ -11,10 +11,11 @@ font-size:60%
 /*
 .reveal h6{
 	font-size: 0.75em;
-}*/
+}
 .reveal p{
 	font-size: 50%;
-}
+}*/
+.reveal .smallText{ font-size:60%}
 
 .reveal table th {
 	font-weight: bold;
