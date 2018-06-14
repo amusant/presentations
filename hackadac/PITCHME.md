@@ -18,6 +18,7 @@
 ---
 
 #### First Things First: The Attacker Model
+
 - A clear idea of what are protecting and from whom ?
 - What would we like to have:
 	- Divide the attacker spaces into several sets. not necessarlily disjoint.
