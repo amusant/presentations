@@ -3,5 +3,3 @@ mathjax : TeX-MML-AM_HTMLorMML-full
 transition: none
 vertical-center : false
 layout : top-left
-logo : assets/TelecomParisTech_logo_80.png
-logo-position : top-right
