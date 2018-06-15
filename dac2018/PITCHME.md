@@ -46,13 +46,11 @@ Paris, FRANCE </br>
 
 #### SoCFPGA: Architecture Overview
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.png" width="400"/>
----
-#### SoCFPGA: Architecture Overview I
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" width="400"/> 
 
 <!--only inline/background images  work in pdf export -->
-+++?image=https://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg&size=auto 60%
-<span style="color:gray; font-size:0.7em">SoCFPGA Architectures II<b></b></span> 
+<!--+++?image=https://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg&size=auto 60% -->
+<!--<span style="color:gray; font-size:0.7em">SoCFPGA Architectures II<b></b></span> -->
 <!--@title[Les fabricants] -->
 ---
 #### SoCFPGA: Architecture Overview II
