@@ -291,8 +291,6 @@ Paris, FRANCE </br>
 #### Rowhammer
 <!--![diag](http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/rowhammer_issi_16x256.svg) {width=10%} -->
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/rowhammer_issi_16x256.svg" width="600"/> 
----
-#### Rowhammer
 <!--![diag](http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/map.svg) {width=10%} -->
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/map.svg" width="400"/> 
 ---
