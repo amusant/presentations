@@ -286,7 +286,7 @@ Paris, FRANCE </br>
 <span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:0px; top:500px;">
 I) The raw cache access latency data.
 </b></span>
-<span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:320px; top:500px;">
+<span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:420px; top:500px;">
 II) The differential ranking metric
 </b></span>
 ---
