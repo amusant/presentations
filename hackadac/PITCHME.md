@@ -17,14 +17,14 @@ Paris, FRANCE </br>
 - Modern day SoCs incorporate hundreds of third party IPs.
 - All these IPs are specified/design separately.
 - Security bugs arise from their interaction.
-- The goal is to find secuirty bugs during design/integration phase.
+- The goal is to find security bugs during design/integration phase.
 ---
 
 #### First Things First: The Attacker Model
 
 - A clear idea of what are protecting and from whom ?
 - What would we like to have:
-	- Divide the attacker spaces into several sets. not necessarlily disjoint.
+	- Divide the attacker spaces into several sets. not necessarily disjoint.
 `$${A_0,A_1\ldots A_n} $$`
 
 	- clearly specify each set with SystemVerilog Assertions.
@@ -36,7 +36,7 @@ Paris, FRANCE </br>
 	- A set of memory zones `$${M_0,M_1\ldots M_n} $$`
 	- A set of Attackers/Users `$${A_0,A_1\ldots A_n} $$ 
 - Example Security Objectives:
-	- `\(A_0,A_5\)` can't acces `\({M_{10},M_{11}}\)`
+	- `\(A_0,A_5\)` can't access `\({M_{10},M_{11}}\)`
 	- if `\(A_0,A_5\)` access  `\(M_{10}\)` implies `\(\overline{\{A_0,A_5\}}\)`  can't access `\({M_{10},M_{11}}\)`
 ---
 #### First Things First: Bug Classification
@@ -53,7 +53,7 @@ Paris, FRANCE </br>
 
 ---
 #### Our Methods
-- Differntial Memory Scan.
+- Differential Memory Scan.
 	- A way to find functional Bugs.
 	- It might also find functional bugs but our main goal is to catch bugs which arise 
 from interaction of different hardware/software blocks.
@@ -63,13 +63,13 @@ from interaction of different hardware/software blocks.
 	- A way to find RTL bugs.
 ---
 #### Differential Memory Scan
-- Ponit of Views (POV)
-	- Secure Ponit of View
+- Point of Views (POV)
+	- Secure Point of View
 	- Hacker Point of View
 
 -e.g
 - In HackaDac we assume simple HW adversary
-	- set of attackes `\(A_0\)`=Processor, `\(A_1\)`=JTAG, `\(A_2\)`=SPI, `\(A_3\)`=GPIO
+	- set of attackers `\(A_0\)`=Processor, `\(A_1\)`=JTAG, `\(A_2\)`=SPI, `\(A_3\)`=GPIO
 	- Secure POV: Processor/Software `\(A_0\)`
 	- Hacker POV: Access from hardware pins. `\({A_1,A_2,A_3}\)`
 	
@@ -83,7 +83,7 @@ from interaction of different hardware/software blocks.
 ---?code=hackadac/src/diffscan.c&lang=asm&title=Differential Memory Scan : Pseudocode
 @[1](A set of memory zones)
 @[2](A set of Attackers)
-@[3](A set of secuirity objectives (Assertions))
+@[3](A set of security objectives (Assertions))
 @[4](Dividing into security objectives)
 @[5-7](Scan & Check in parallel)
 
@@ -121,7 +121,7 @@ from interaction of different hardware/software blocks.
 
 ---
 #### Differential Code Coverage
--	Applied differential code coverageto inspect JTAG port vulnerability.
+-	Applied differential code coverage to inspect JTAG port vulnerability.
 -	Scan through all other ports (SPI,CPU)
 -	Store code coverage.
 -	several accesses through JTAG port.
@@ -170,7 +170,7 @@ from interaction of different hardware/software blocks.
 - SoC Designers integrate and create bugs.
 - we differentiate and debug.
 - Not very different from standard verification methodologies.
-- Capable to detect bith functional and RTL bugs.
+- Capable of detecting both functional and RTL bugs.
 
 ---
 <span style="font-family:Helvetica Neue; color blue;font-size:2.0em;font-weight:bold; position:absolute;left:200px; top:200px;">
