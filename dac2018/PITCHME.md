@@ -45,8 +45,8 @@ Paris, FRANCE </br>
 ---
 
 #### SoCFPGA: Architecture Overview
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.png" width="400"/>
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" width="400"/> 
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" width="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/ultrascale.svg" width="400"/> 
 
 <!--only inline/background images  work in pdf export -->
 <!--+++?image=https://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg&size=auto 60% -->
