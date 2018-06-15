@@ -353,3 +353,10 @@ Paris, FRANCE </br>
     <td>16 Hours</td>
     <td>NA</td>
 </table>
+--- 
+#### Conclusion
+-
+---
+<span style="font-family:Helvetica Neue; color blue;font-size:2.0em;font-weight:bold; position:absolute;left:200px; top:200px;">
+Questions ?
+</b></span>
