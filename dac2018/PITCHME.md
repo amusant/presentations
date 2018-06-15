@@ -52,9 +52,8 @@ Paris, FRANCE </br>
 <!--+++?image=https://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg&size=auto 60% -->
 <!--<span style="color:gray; font-size:0.7em">SoCFPGA Architectures II<b></b></span> -->
 <!--@title[Les fabricants] -->
----
-#### SoCFPGA: Architecture Overview II
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" width="400"/> 
+<!--#### SoCFPGA: Architecture Overview II-->
+<!--<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" width="400"/>  -->
 
 ---
 #### Existing Counter-Measures in the SoCFPGA : TrustZone
