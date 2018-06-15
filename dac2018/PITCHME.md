@@ -143,8 +143,6 @@ Paris, FRANCE </br>
   </tr>
 </table>
 
-
----
 #### Attacks
 - Direct Memory Attacks
 - Cache Timing Attacks
