@@ -283,8 +283,15 @@ Paris, FRANCE </br>
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/raw1.png" width="300"/> 
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/raw2.png" width="300"/> 
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/ptetable1.svg" width="300"/> 
-<span style="color:gray; font-size:0.7em">Image 1<b></b></span>
-<span style="color:gray; font-size:0.7em">Image 1<b></b></span>
+<span style="font-family:Helvetica Neue; color blue;font-size:2.0em;font-weight:bold; position:absolute;left:0px; top:200px;">
+The raw cache access latency data.
+</b></span>
+<span style="font-family:Helvetica Neue; color blue;font-size:2.0em;font-weight:bold; position:absolute;left:300px; top:200px;">
+The differential ranking metric
+</b></span>
+<span style="font-family:Helvetica Neue; color blue;font-size:2.0em;font-weight:bold; position:absolute;left:600px; top:200px;">
+ target address comes up within first 5 for more than 300 iterations
+</b></span>
 ---
 #### Rowhammer
 <!--![diag](http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/rowhammer_issi_16x256.svg) {width=10%} -->
