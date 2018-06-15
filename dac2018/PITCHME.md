@@ -361,7 +361,14 @@ square represents 64KB.
 </table>
 --- 
 #### Conclusion
--
+- We discussed various possible attacks on current SoCFPGA Archietctures.
+	- DMA
+	- Cache Timing
+	- Rowhammer
+- Most of them arise from hadware/software interaction.
+- and attacks which were not known during design time.
+- Need to apply a secuirty solution on a case-by-case basis.
+
 ---
 <span style="font-family:Helvetica Neue; color blue;font-size:2.0em;font-weight:bold; position:absolute;left:200px; top:200px;">
 Questions ?
