@@ -172,3 +172,7 @@ from interaction of different hardware/software blocks.
 - Not very different from standard verification methodologies.
 - Capable to detect bith functional and RTL bugs.
 
+---
+<span style="font-family:Helvetica Neue; color blue;font-size:0.4em;font-weight:bold; left:200px; top:0px;">
+Questions ?
+</b></span>
