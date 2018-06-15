@@ -294,10 +294,10 @@ II) The differential ranking metric
 <!--![diag](http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/rowhammer_issi_16x256.svg) {width=10%} -->
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/rowhammer_issi_16x256.svg" height="400"/> 
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/map.svg" height="400"/> 
-<span style="font-family:Helvetica Neue; color blue;font-size:0.35em;font-weight:bold; position:absolute;left:20px; top:600px;">
+<span style="font-family:Helvetica Neue; color blue;font-size:0.35em;font-weight:bold; position:absolute;left:50px; top:650px;">
 a) Error rate with Refresh Interval
 </b></span>
-<span style="font-family:Helvetica Neue; color blue;font-size:0.35em;font-weight:bold; position:absolute;left:620px; top:600px;">
+<span style="font-family:Helvetica Neue; color blue;font-size:0.35em;font-weight:bold; position:absolute;left:700px; top:650px;">
 (b) The error map of a 256 MB zone. Each
 square represents 64KB.
 
