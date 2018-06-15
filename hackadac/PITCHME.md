@@ -126,9 +126,7 @@ from interaction of different hardware/software blocks.
 -	Store code coverage.
 -	several accesses through JTAG port.
 -	Manually diff code coverage.
----
 
-#### Our Method Applied to Pulpino
 ---?code=hackadac/src/jtag.v&lang=verilog&title=Our Method Applied to Pulpino
 - during tap reset the password check is set to 1,
 - the attacker  will be able to pass one jtag instruction/data,
@@ -162,7 +160,7 @@ from interaction of different hardware/software blocks.
     <td>Differential Scan</td>
   </tr>
   <tr class="fragment">
-    <td>JTAG PAssword Scheme is Broken</td>
+    <td>JTAG password can be guessed through Exhaustive search.</td>
     <td>RTL</td>
     <td>Differential Code Coverage</td>
   </tr>
