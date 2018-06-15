@@ -283,13 +283,13 @@ Paris, FRANCE </br>
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/raw1.png" width="300"/> 
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/raw2.png" width="300"/> 
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/ptetable1.svg" width="300"/> 
-<span style="font-family:Helvetica Neue; color blue;font-size:0.35em;font-weight:bold; position:absolute;left:0px; top:200px;">
+<span style="font-family:Helvetica Neue; color blue;font-size:0.35em;font-weight:bold; position:absolute;left:20px; top:500px;">
 The raw cache access latency data.
 </b></span>
-<span style="font-family:Helvetica Neue; color blue;font-size:0.35em;font-weight:bold; position:absolute;left:300px; top:200px;">
+<span style="font-family:Helvetica Neue; color blue;font-size:0.35em;font-weight:bold; position:absolute;left:320px; top:500px;">
 The differential ranking metric
 </b></span>
-<span style="font-family:Helvetica Neue; color blue;font-size:0.35em;font-weight:bold; position:absolute;left:600px; top:200px;">
+<span style="font-family:Helvetica Neue; color blue;font-size:0.35em;font-weight:bold; position:absolute;left:620px; top:500px;">
  target address comes up within first 5 for more than 300 iterations
 </b></span>
 ---
