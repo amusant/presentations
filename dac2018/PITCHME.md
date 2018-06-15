@@ -283,10 +283,10 @@ Paris, FRANCE </br>
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/raw1.png" width="400"/> 
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/raw2.png" width="400"/> 
 <!--<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/ptetable1.svg" width="300"/> -->
-<span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:20px; top:600px;">
+<span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:40px; top:550px;">
 I) The raw cache access latency data.
 </b></span>
-<span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:520px; top:600px;">
+<span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:500px; top:550px;">
 II) The differential ranking metric
 </b></span>
 ---
