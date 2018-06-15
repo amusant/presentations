@@ -97,23 +97,42 @@ from interaction of different hardware/software blocks.
 ---?code=hackadac/src/pulpino.c&lang=asm&title=Differential Memory Scan : Pulpino
 
 --- 
-#### Differential Memory Scan : Pulpino
+#### Our Method Applied to Pulpino
 - Found Boot address modification bug
+	- The system boots from bootrom 0x8080, and runs.
+	- The attacker resets the SoC. and puts it in sleep mode (fetch_enable).
+	- The attacker changes the boot address  (e.g 0x4000)  through JTAG.
+   		Boot address Register 0x1A107008, P. 27 datasheet.pdf
+	- Attacker loads his program through SPI. (spi_load(use_qspi)) in testbench,
+   at the same address 0x4000.
+	- The attacker brings the SoC out of sleep mode, the SoC will now boot from
+   0x4000 with attacker program.
+
 ---
 #### Differential Code Coverage
+- A way to detect RTL Bugs.
+- Once a functional bug is detected we can enquire if it is in specification or due to a RTL bug.
+- To fond RT trace:
+	- first run some random tests and store code coverage.
+	- execute the scan from concerned user/attacker model, and store code coverage results.
+	- Diff the code coverage to find RTL trail.
+	- This process can be further refined with each access. read/write/password etc.   
 
 
 ---
 #### Differential Code Coverage
----
-#### Our Method Applied to Pulpino
+-	Applied differential code coverageto inspect JTAG port vulnerability.
+-	Scan through all other ports (SPI,CPU)
+-	Store code coverage.
+-	several accesses through JTAG port.
+-	Manually diff code coverage.
 ---
 
 #### Our Method Applied to Pulpino
----
-#### Our Method Applied to Pulpino
----
-#### Bugs Found
+---?code=hackadac/src/jtag.v&lang=verilog&title=Our Method Applied to Pulpino
+- during tap reset the password check is set to 1,
+- the attacker  will be able to pass one jtag instruction/data,
+- the attacker can reset every  time and write unlimited instructions
 ---
 #### Bugs Found
 <table>
@@ -149,8 +168,9 @@ from interaction of different hardware/software blocks.
   </tr>
 </table>
 --- 
-#### Bugs Not Found ?
----
 #### Conclusion
----
+- SoC Designers integrate and create bugs.
+- we differentiate and debug.
+- Not very different from standard verification methodologies.
+- Capable to detect bith functional and RTL bugs.
 
