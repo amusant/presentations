@@ -280,17 +280,14 @@ Paris, FRANCE </br>
 `$$\tiny{rank = \frac{\left|rank_{latency}(phase 1)-rank_{latency}(phase 2)\right|}{rank_{latency}(phase 2)}}$$`
 ---
 #### Experiments: Cache Timing Attacks to break ASLR
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/raw1.png" width="300"/> 
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/raw2.png" width="300"/> 
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/ptetable1.svg" width="300"/> 
-<span style="font-family:Helvetica Neue; color blue;font-size:0.35em;font-weight:bold; position:absolute;left:0px; top:500px;">
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/raw1.png" width="400"/> 
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/raw2.png" width="400"/> 
+<!--<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/ptetable1.svg" width="300"/> -->
+<span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:0px; top:500px;">
 I) The raw cache access latency data.
 </b></span>
-<span style="font-family:Helvetica Neue; color blue;font-size:0.35em;font-weight:bold; position:absolute;left:320px; top:500px;">
+<span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:320px; top:500px;">
 II) The differential ranking metric
-</b></span>
-<span style="font-family:Helvetica Neue; color blue;font-size:0.35em;font-weight:bold; position:absolute;left:620px; top:500px;">
-III) Target address comes up within first 5 for more than 300 iterations
 </b></span>
 ---
 #### Rowhammer
