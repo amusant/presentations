@@ -283,7 +283,7 @@ Paris, FRANCE </br>
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/raw1.png" width="300"/> 
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/raw2.png" width="300"/> 
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/ptetable1.svg" width="300"/> 
-<span style="font-family:Helvetica Neue; color blue;font-size:0.35em;font-weight:bold; position:absolute;left:20px; top:500px;">
+<span style="font-family:Helvetica Neue; color blue;font-size:0.35em;font-weight:bold; position:absolute;left:0px; top:500px;">
 I) The raw cache access latency data.
 </b></span>
 <span style="font-family:Helvetica Neue; color blue;font-size:0.35em;font-weight:bold; position:absolute;left:320px; top:500px;">
@@ -297,10 +297,10 @@ III) Target address comes up within first 5 for more than 300 iterations
 <!--![diag](http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/rowhammer_issi_16x256.svg) {width=10%} -->
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/rowhammer_issi_16x256.svg" height="400"/> 
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/map.svg" height="400"/> 
-<span style="font-family:Helvetica Neue; color blue;font-size:0.35em;font-weight:bold; position:absolute;left:20px; top:500px;">
+<span style="font-family:Helvetica Neue; color blue;font-size:0.35em;font-weight:bold; position:absolute;left:20px; top:600px;">
 a) Error rate with Refresh Interval
 </b></span>
-<span style="font-family:Helvetica Neue; color blue;font-size:0.35em;font-weight:bold; position:absolute;left:420px; top:500px;">
+<span style="font-family:Helvetica Neue; color blue;font-size:0.35em;font-weight:bold; position:absolute;left:620px; top:600px;">
 (b) The error map of a 256 MB zone. Each
 square represents 64KB.
 
