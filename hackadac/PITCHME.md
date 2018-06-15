@@ -160,6 +160,11 @@ from interaction of different hardware/software blocks.
     <td>Differential Scan</td>
   </tr>
   <tr class="fragment">
+    <td>JTAG password scheme is Broken</td>
+    <td>RTL</td>
+    <td>Differential Code Coverage</td>
+  </tr>
+  <tr class="fragment">
     <td>JTAG password can be guessed through Exhaustive search.</td>
     <td>RTL</td>
     <td>Differential Code Coverage</td>
