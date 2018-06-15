@@ -11,7 +11,7 @@ Paris, FRANCE </br>
 </b></span>
 
 <img src="assets/TelecomParisTech_logo_80.png" style="position:absolute; left:900px; top:-200px;" width="50"/>
-<img src="hackadac/images/logo_sic_2016.png" style="position:absolute; left:980px; top:-200px;" width="200"/>
+<img src="hackadac/images/logo_sic_2016.png" style="position:absolute; left:950px; top:-200px;" height="50" width="200"/>
 ---
 #### Context
 - Modern day SoCs incorporate hundreds of third party IPs.
