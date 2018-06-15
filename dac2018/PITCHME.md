@@ -25,7 +25,7 @@ Paris, FRANCE </br>
 - Scope |
 	- Attacks on OS mounted from the FPGA  |
 - Attacker Model |
-	- Sceanrio A : High Performance Computing |
+	- Scenario A : High Performance Computing |
 	- Scenario B : Embedded |
 ---
 #### Attacker Model
@@ -36,7 +36,7 @@ Paris, FRANCE </br>
 	- Concerned FPGAs: Zynq UltraScale+, Arria W, Stratix X |
 
 - Embedded |
-	- The attacker is a third-party Supplier  of FPGA librarires (App Store) |
+	- The attacker is a third-party Supplier  of FPGA libraries (App Store) |
 	- The User himself trying to break DRMs. |
 	- concerned FPGAs: Cyclone V, Zynq 7000 |
 ---
@@ -60,7 +60,7 @@ Paris, FRANCE </br>
 	- Framework encompassing both Hardware and Software
 - SoftWare
 	- Secure & Non-Secure World Abstractions
-	- Monitor Mode which handles the transition from one worls to another
+	- Monitor Mode which handles the transition from one worlds to another
 	- Secure TEEs (Trusted Execution Environments) run in the Secure World
 		- e.g SierraTEE, Toppers
 	- Rich OS Android, Linux, RTOS
@@ -71,15 +71,15 @@ Paris, FRANCE </br>
 
 ---
 
-#### Existing Secuirty Measures: SoCFPGA
+#### Existing Security Measures: SoCFPGA
 
 - Memory Protection Unit
-	- can define memory wones with granularity.
+	- can define memory zones with granularity.
 		- e.g 1MB in Cyclone V, 64MB in Zynq
 	- control access based on Address Range, Master Id, Master Port
 
 - Secure Cache Access
-	- Secuirty State of the masters using ACP must be the same as that of the processor
+	- Security State of the masters using ACP must be the same as that of the processor
 
 - System MMU/IOMMU 
 	- MMU is the main memory protection mechanism in OS/SoC.
@@ -163,12 +163,12 @@ Paris, FRANCE </br>
 ---
 #### Cache Timing Attacks
 - Attacks
-	- CTA to breeak ASLR
+	- CTA to break ASLR
 	- CTA to guess program behaviour.
 		- to guess cryptographic keys
 - Countermeasures
 	- SoCFPGAs with ACP and without SMMU are vulnerable.
-	- A MMU dan be programmed into FPGA.
+	- A MMU can be programmed into FPGA.
 	- Blocking Cache access during cryptographic routines.
 ---
 #### Latency
@@ -247,7 +247,7 @@ Paris, FRANCE </br>
 </table>
 
 ---
-#### Exepriments: DMA Code Injection
+#### Experiments: DMA Code Injection
 
 -  The host program creates memory pressure by allocating arrays,
  and using those arrays in memory.
@@ -264,7 +264,7 @@ Paris, FRANCE </br>
 ---?code=assets/src/dma0.asm&lang=asm&title=Disassembly of log10 function at python(2.7) numpy umath.so library
 @[4](Replacing the jump to log10 function by jump to mod function)
 ---
-#### Exepriments: Cache Timing Attacks to break ASLR
+#### Experiments: Cache Timing Attacks to break ASLR
 - In the first phase, FPGA accelerator kernel scans the 
   memory space with a step of 4KBytes and offset equal to 
   the virtual address offset. 
@@ -279,7 +279,7 @@ Paris, FRANCE </br>
 
 `$$\tiny{rank = \frac{\left|rank_{latency}(phase 1)-rank_{latency}(phase 2)\right|}{rank_{latency}(phase 2)}}$$`
 ---
-#### Exepriments: Cache Timing Attacks to break ASLR
+#### Experiments: Cache Timing Attacks to break ASLR
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/raw1.png" width="300"/> 
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/raw2.png" width="300"/> 
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/ptetable1.svg" width="300"/> 
@@ -361,13 +361,13 @@ square represents 64KB.
 </table>
 --- 
 #### Conclusion
-- We discussed various possible attacks on current SoCFPGA Archietctures.
+- We discussed various possible attacks on current SoCFPGA Architectures.
 	- DMA
 	- Cache Timing
 	- Rowhammer
-- Most of them arise from hadware/software interaction.
+- Most of them arise from hardware/software interaction.
 - and attacks which were not known during design time.
-- Need to apply a secuirty solution on a case-by-case basis.
+- Need to apply a security solution on a case-by-case basis.
 
 ---
 <span style="font-family:Helvetica Neue; color blue;font-size:2.0em;font-weight:bold; position:absolute;left:200px; top:200px;">
