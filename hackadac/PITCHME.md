@@ -173,6 +173,6 @@ from interaction of different hardware/software blocks.
 - Capable to detect bith functional and RTL bugs.
 
 ---
-<span style="font-family:Helvetica Neue; color blue;font-size:2.4em;font-weight:bold; position:absolute;left:200px; top:-200px;">
+<span style="font-family:Helvetica Neue; color blue;font-size:2.0em;font-weight:bold; position:absolute;left:200px; top:200px;">
 Questions ?
 </b></span>
