@@ -173,6 +173,7 @@ from interaction of different hardware/software blocks.
 - Capable to detect bith functional and RTL bugs.
 
 ---
-<span style="font-family:Helvetica Neue; color blue;font-size:0.4em;font-weight:bold; left:200px; top:0px;">
+<span style="font-family:Helvetica Neue; color blue;font-size:2.4em;font-weight:bold; position:absolute;left:200px; top:0px;">
+#### Our Method Applied to Pulpino
 Questions ?
 </b></span>
