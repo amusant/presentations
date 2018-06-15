@@ -174,6 +174,5 @@ from interaction of different hardware/software blocks.
 
 ---
 <span style="font-family:Helvetica Neue; color blue;font-size:2.4em;font-weight:bold; position:absolute;left:200px; top:0px;">
-#### Our Method Applied to Pulpino
 Questions ?
 </b></span>
