@@ -279,7 +279,7 @@ Paris, FRANCE </br>
 -  next we rank addresses w.r.t the latency data from both phases
  and we use the following equation to calculate final ranks.
 
-`\tiny{$$rank = \frac{\left|rank_{latency}(phase 1)-rank_{latency}(phase 2)\right|}{rank_{latency}(phase 2)}$$}`
+`$$\tiny{rank = \frac{\left|rank_{latency}(phase 1)-rank_{latency}(phase 2)\right|}{rank_{latency}(phase 2)}}$$`
 ---
 #### Exepriments: Cache Timing Attacks to break ASLR
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/raw1.png" width="300"/> 
