@@ -22,16 +22,16 @@ Paris, FRANCE </br>
 
 #### First Things First: The Attacker Model
 
-- A clear idea of what are protecting and from whom ?
+- A clear idea of what are we protecting and from whom ?
 - What would we like to have:
-	- Divide the attacker spaces into several sets. not necessarily disjoint.
+	- Divide the attacker space into several sets. not necessarily disjoint.
 `$${A_0,A_1\ldots A_n} $$`
 
 	- clearly specify each set with SystemVerilog Assertions.
 	-e.g simple hardware adversary: 
 ---
 #### First Things First: The Security Objective
-- Specification of Security objectives with assertions:
+- Specification of security objectives with assertions:
 - For memory mapped SoCs we have
 	- A set of memory zones `$${M_0,M_1\ldots M_n} $$`
 	- A set of Attackers/Users `$${A_0,A_1\ldots A_n} $$ 
@@ -55,7 +55,7 @@ Paris, FRANCE </br>
 #### Our Methods
 - Differential Memory Scan.
 	- A way to find functional Bugs.
-	- It might also find functional bugs but our main goal is to catch bugs which arise 
+	- It might also find RTL bugs but our main goal is to catch bugs which arise 
 from interaction of different hardware/software blocks.
 	- RTL is not the best place to find functional bugs.
 
@@ -112,7 +112,7 @@ from interaction of different hardware/software blocks.
 #### Differential Code Coverage
 - A way to detect RTL Bugs.
 - Once a functional bug is detected we can enquire if it is in specification or due to a RTL bug.
-- To fond RT trace:
+- To find RTL trace:
 	- first run some random tests and store code coverage.
 	- execute the scan from concerned user/attacker model, and store code coverage results.
 	- Diff the code coverage to find RTL trail.
@@ -173,7 +173,7 @@ from interaction of different hardware/software blocks.
 --- 
 #### Conclusion
 - SoC Designers integrate and create bugs.
-- we differentiate and debug.
+- We differentiate and debug.
 - Not very different from standard verification methodologies.
 - Capable of detecting both functional and RTL bugs.
 
