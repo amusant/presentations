@@ -274,8 +274,7 @@ Paris, FRANCE </br>
   address (e.g beginning of the GNU libc), and at the same time
   FPGA measures the latency, so the target address has a high
   probability to get low latency.
----
-#### Exepriments: Cache Timing Attacks to break ASLR
+
 -  next we rank addresses w.r.t the latency data from both phases
  and we use the following equation to calculate final ranks.
 
