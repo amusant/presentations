@@ -40,9 +40,8 @@ Paris, FRANCE </br>
 	- The User himself trying to break DRMs. |
 	- concerned FPGAs: Cyclone V, Zynq 7000 |
 ---
-#### Existing Attacks in the SoC Domain
+<!--#### Existing Attacks in the SoC Domain-->
 
----
 
 #### SoCFPGA: Architecture Overview
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" height="400"/>
