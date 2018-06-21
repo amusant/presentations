@@ -130,24 +130,63 @@ from interaction of different hardware/software blocks.
 -	Manually diff code coverage.
 
 ---
+<p><span class="menu-title slide-title">coverage with no jtag access : adbg_tap_top.sv </span></p>
 ```verilog
- 233                else
- 234   38983            TAP_state = next_TAP_state;
- 235             end
- 236
- 237
- 238             // Determination of next state; purely combinatorial
- 239   93833     always @ (TAP_state or tms_pad_i or logic_reset or pwd_check)
- 240             begin
- 241                case(TAP_state)
- 242                    `STATE_test_logic_reset:
- 243                        begin
- 244    2050                if(tms_pad_i) next_TAP_state = `STATE_test_logic_reset;
- 245   13331                else next_TAP_state = `STATE_run_test_idle;
- 246                        end
- 247                    `STATE_run_test_idle:
+225              // sequential part of the FSM
+226       76     always @ (posedge tck_pad_i or negedge trstn_pad_i)
+227              begin
+228                 if(trstn_pad_i == 0)
+229                     begin
+230        5            TAP_state = `STATE_test_logic_reset;
+231        5            pwd_check = 1'b0;
+232                     end
+233                 else
+234       71            TAP_state = next_TAP_state;
+235              end
+236
+237
+238              // Determination of next state; purely combinatorial
+239      138     always @ (TAP_state or tms_pad_i or logic_reset or pwd_check)
+240              begin
+241                 case(TAP_state)
+242                     `STATE_test_logic_reset:
+243                         begin
+244        2                if(tms_pad_i) next_TAP_state = `STATE_test_logic_reset;
+245       20                else next_TAP_state = `STATE_run_test_idle;
+246                         end
+247                     `STATE_run_test_idle:
+
 
 ```
+<p><span class="menu-title slide-title">coverage with jtag access: adbg_tap_top.sv</span></p>
+```verilog
+225             // sequential part of the FSM
+226   42060     always @ (posedge tck_pad_i or negedge trstn_pad_i)
+227             begin
+228                if(trstn_pad_i == 0)
+229                    begin
+230    3077            TAP_state = `STATE_test_logic_reset;
+231    3077            pwd_check = 1'b0;
+232                    end
+233                else
+234   38983            TAP_state = next_TAP_state;
+235             end
+236
+237
+238             // Determination of next state; purely combinatorial
+239   93833     always @ (TAP_state or tms_pad_i or logic_reset or pwd_check)
+240             begin
+241                case(TAP_state)
+242                    `STATE_test_logic_reset:
+243                        begin
+244    2050                if(tms_pad_i) next_TAP_state = `STATE_test_logic_reset;
+245   13331                else next_TAP_state = `STATE_run_test_idle;
+246                        end
+247                    `STATE_run_test_idle:
+
+
+```
+---
 
 ---?code=hackadac/src/jtag.v&lang=verilog&title=Our Method Applied to Pulpino
 - during tap reset the password check is set to 1,
