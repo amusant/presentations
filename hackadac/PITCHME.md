@@ -138,7 +138,7 @@ from interaction of different hardware/software blocks.
 228                 if(trstn_pad_i == 0)
 229                     begin
 230        5            TAP_state = `STATE_test_logic_reset;
-231        5            pwd_check = 1'b0;
+231        5            pwd_check = 1'b1;
 232                     end
 233                 else
 234       71            TAP_state = next_TAP_state;
@@ -167,7 +167,7 @@ from interaction of different hardware/software blocks.
 228                if(trstn_pad_i == 0)
 229                    begin
 230    3077            TAP_state = `STATE_test_logic_reset;
-231    3077            pwd_check = 1'b0;
+231    3077            pwd_check = 1'b1;
 232                    end
 233                else
 234   38983            TAP_state = next_TAP_state;
