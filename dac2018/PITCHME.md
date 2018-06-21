@@ -172,7 +172,8 @@ Paris, FRANCE </br>
 	- Blocking Cache access during cryptographic routines.
 ---
 #### Latency
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/lathist.svg" width="600"/> 
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/lathist.svg" width="400"/> 
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" height="400"/>
 ---
 #### Rowhammer
 - Attacks
