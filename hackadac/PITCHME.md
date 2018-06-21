@@ -158,6 +158,7 @@ from interaction of different hardware/software blocks.
 
 
 ```
+---
 <p><span class="menu-title slide-title">coverage with jtag access: adbg_tap_top.sv</span></p>
 ```verilog
 225             // sequential part of the FSM
@@ -186,7 +187,6 @@ from interaction of different hardware/software blocks.
 
 
 ```
----
 
 ---?code=hackadac/src/jtag.v&lang=verilog&title=Our Method Applied to Pulpino
 - during tap reset the password check is set to 1,
