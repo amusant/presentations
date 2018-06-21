@@ -34,6 +34,9 @@ Paris, FRANCE </br>
 
 	- clearly specify each set with SystemVerilog Assertions.
 	-e.g simple hardware adversary: 
+Note:
+Remember to explain why it's for everyone: no sign-up, nothing to install.
+Just MD. Then git-commit.
 ---
 #### First Things First: The Security Objective
 - Specification of security objectives with assertions:
