@@ -46,6 +46,12 @@ Paris, FRANCE </br>
 #### SoCFPGA: Architecture Overview
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" height="400"/>
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/ultrascale.svg" height="400"/> 
+<span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:40px; top:550px;">
+I) Arch. 1, Arch. 2  Cyclone and Zynq like.
+</b></span>
+<span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:500px; top:550px;">
+II) Arch 3. Arch. 4  Stratix X, Ultrascale like.
+</b></span>
 
 <!--only inline/background images  work in pdf export -->
 <!--+++?image=https://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg&size=auto 60% -->
