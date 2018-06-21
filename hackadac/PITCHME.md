@@ -16,7 +16,7 @@ Paris, FRANCE </br>
 ### Telecom ParisTech
 - Grande Ecole in France ( Formerly ENST)
 
----?image=https://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/Secure-IC_presentation_one_slide.svg&size=auto  
+---?image=https://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/Secure-IC_presentation_one_slide.svg&size=auto&title=Secure-IC 
 ---
 #### Context
 - Modern day SoCs incorporate hundreds of third party IPs.
