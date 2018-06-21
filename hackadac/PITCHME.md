@@ -39,7 +39,8 @@ Paris, FRANCE </br>
 - Example Security Objectives:
 	- `\(A_0,A_5\)` can't access `\({M_{10},M_{11}}\)`
 	- if `\(A_0,A_5\)` access  `\(M_{10}\)` implies `\(\overline{\{A_0,A_5\}}\)`  can't access `\({M_{10},M_{11}}\)`
----?code=hackadac/src/assertions.v&lang=verilog&title=Example Assertions
+
+---?code=hackadac/src/assertions.sv&lang=verilog&title=Example Assertions
 ---
 #### First Things First: Bug Classification
 - Functional Bugs
@@ -189,6 +190,8 @@ from interaction of different hardware/software blocks.
 ```
 
 ---?code=hackadac/src/adbg_tap_top.v&lang=verilog&title=Our Method Applied to Pulpino
+@[231](Passwprd check is set to 1 during reset)
+@[451-455](Only Last 8 bits of the password are cheicked)
 - during tap reset the password check is set to 1,
 - the attacker  will be able to pass one jtag instruction/data,
 - the attacker can reset every  time and write unlimited instructions
