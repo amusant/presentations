@@ -129,8 +129,27 @@ from interaction of different hardware/software blocks.
 -	several accesses through JTAG port.
 -	Manually diff code coverage.
 
+---
+```verilog
+ 233                                                 else
+    234             1                      38983            TAP_state = next_TAP_state;
+    235                                              end
+    236
+    237
+    238                                              // Determination of next state; purely combinatorial
+    239             1                      93833     always @ (TAP_state or tms_pad_i or logic_reset or pwd_check)
+    240                                              begin
+    241                                                 case(TAP_state)
+    242                                                     `STATE_test_logic_reset:
+    243                                                         begin
+    244             1                       2050                if(tms_pad_i) next_TAP_state = `STATE_test_logic_reset;
+    245             1                      13331                else next_TAP_state = `STATE_run_test_idle;
+    246                                                         end
+    247                                                     `STATE_run_test_idle:
+
+```
+
 ---?code=hackadac/src/jtag.v&lang=verilog&title=Our Method Applied to Pulpino
-?code=hackadac/src/jtag.v&lang=verilog&title=Our Method Applied to Pulpino
 - during tap reset the password check is set to 1,
 - the attacker  will be able to pass one jtag instruction/data,
 - the attacker can reset every  time and write unlimited instructions
