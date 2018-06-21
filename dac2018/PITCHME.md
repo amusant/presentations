@@ -177,9 +177,10 @@ Paris, FRANCE </br>
 ---
 #### Rowhammer
 - Attacks
+	- Repeatedly reading a DRAM row within the refresh interval can cause bit-flips in the adjacent rows.
 	- Particularly easy from FPGA. High speed/low latency memory access.
 	- A maximum no. of memory accesses within the refresh interval.
-	- FPGAs have direct links to DDR.
+	- FPGAs have direct links to DDR. (no intermediate cache)
 - Countermeasures
 	- For effective attacks need to break ASLR first.
 	- Obfuscation of physical address (since linux kernel 4.0)
