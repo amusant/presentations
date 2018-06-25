@@ -36,7 +36,7 @@ Paris, FRANCE </br>
 
 Note:
 Important point to stress is that our goal is to catch during integration 
-phase, before the chip goe sto foundry.
+phase, before the chip goes to foundry.
 ---
 #### First Things First: The Attacker Model
 
@@ -46,9 +46,9 @@ phase, before the chip goe sto foundry.
 `$${A_0,A_1\ldots A_n} $$`
 
 	- clearly specify each set with attributes/enumerated types.
-	- e.g simple hardware adversarya using JTAG port.
-	- e.g simple hardware adversery using AXI port 1, with Master ID 4, 
-	- e.g simple(unprivileged software adversery)
+	- e.g simple hardware adversary using JTAG port.
+	- e.g simple hardware adversary using AXI port 1, with Master ID 4, 
+	- e.g simple(unprivileged software adversary)
 
 Note:
 Importance of specifying things correctly. Second example shows teh specification 
@@ -64,7 +64,7 @@ of a master among various masters using the same AXI port.
 	- if `\(A_0,A_5\)` access  `\(M_{10}\)` implies `\(\overline{\{A_0,A_5\}}\)`  can't access `\({M_{10},M_{11}}\)`
 
 Note:
-Important to specify security objectives which can be directky used in code not 
+Important to specify security objectives which can be directly used in code not 
 in text/word/excel format.
 
 ---?code=hackadac/src/assertions.sv&lang=verilog&title= Security Objectives SVA
@@ -260,7 +260,7 @@ always @ (*) begin
     logic_reset = (idcode_reg[counter] != tmp_pwd[counter])? 1: 0;
 end
 ```
-- Only Last 8 bits of the password are cheicked
+- Only Last 8 bits of the password are checked
 - the attacker  will be able to pass one jtag instruction/data,
 - the attacker can reset every  time and write unlimited instructions
 ---
@@ -305,7 +305,7 @@ end
 
 
 #### Drawbacks of our Methods:
-- Depends on Simulation. (i. enot static such as linting)
+- Depends on Simulation. (i.e not static such as linting)
 - Needs a test already running from Secure Point of View.
 - We could not get a secure mode test running in the finals. 
 --- 
