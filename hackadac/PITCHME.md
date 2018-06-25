@@ -134,7 +134,7 @@ from interaction of different hardware/software blocks.
 ---
 #### Pulpino Memory MAP
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/mmap.svg" width="300" style="background-color:white"/>
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/pulpino_block.svg" style="background-color:white"  width="500" style="position:absolute; left:400px; top:100px;"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/pulpino_block.svg" width="500" style="position:absolute; left:400px; top:100px;background-color:white"/>
 
 
 
