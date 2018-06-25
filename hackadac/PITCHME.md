@@ -25,10 +25,15 @@ Paris, FRANCE </br>
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/Secure-IC_presentation_one_slide.svg" width="700"/>
 ---
 #### Context
+- Semiconductor industry is highly globalised.
 - Modern day SoCs incorporate hundreds of third party IPs.
-- All these IPs are specified/design separately.
-- Security bugs arise from their interaction.
+- All these IPs are specified/design separately by different design teams.
+- Security bugs arise from their interaction during integration.
 - The goal is to find security bugs during design/integration phase.
+
+##### Hack@Dac
+- 1st Phase: An open source SoC Pulpino.
+- 2nd Phase: An open source SoC Pulpissimo.
 ---
 
 #### First Things First: The Attacker Model
