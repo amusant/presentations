@@ -7,4 +7,4 @@ for i in M
 	store results
 	scan(P1,i)
 	store results
-	compare ane verify assertions
+	compare and verify assertions
