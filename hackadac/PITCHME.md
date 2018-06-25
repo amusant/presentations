@@ -316,6 +316,6 @@ end
 - Capable of detecting both functional and RTL bugs.
 - Our methods are not static. 
 ---
-<span style="font-family:Helvetica Neue; color blue;font-size:2.0em;font-weight:bold; position:absolute;left:200px; top:200px;">
+<span style="font-family:Helvetica Neue; color blue;font-size:2.0em;font-weight:bold; position:absolute;left:250px; top:200px;">
 Questions ?
 </b></span>
