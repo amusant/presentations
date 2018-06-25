@@ -246,6 +246,8 @@ begin
 end
 ```
 - Password check is set to 1 during reset
+---
+<p><span class="menu-title slide-title">Our Method Applied to Pulpino</span></p>
 <!---?code=hackadac/src/adbg_tap_top.v&lang=verilog&title=Our Method Applied to Pulpino-->
 ```verilog
     counter <= counter + 1'b1;
