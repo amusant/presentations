@@ -14,7 +14,11 @@ Paris, FRANCE </br>
 <img src="hackadac/images/logo_sic_2016.png" style="position:absolute; left:910px; top:-200px;" height="50" width="150"/>
 ---
 ### Telecom ParisTech
-- Grande Ecole in France ( Formerly ENST)
+- Grande Ecole in France 
+- Formerly École Nationale Supérieure des Télécommunications. (ENST)
+- Established in 1878
+- A Specialisation School for Digital Technologies.
+- Among the top 5 enginerring schools in France.
 
 ---?image=https://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/Secure-IC_presentation_one_slide.svg&size=auto&title=Secure-IC 
 ---
