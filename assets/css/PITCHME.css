@@ -19,16 +19,7 @@ font-size:60%
 .reveal .slides section .slideContent h2 {
    font-size: 40px;
 }
-.reveal .MathJax {
-    font-size: 10%;
-}
 
-.MathJax {
-	font-size: 10%;
-}
-
-.reveal .MathJax_CHTML {
-    font-size: 25px !important;
 }
 /* ordered and unordered list styles */
 .reveal ul, 
