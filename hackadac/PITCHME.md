@@ -19,7 +19,7 @@ Paris, FRANCE </br>
 - Established in 1878
 - A Specialisation School for Digital Technologies.
 - Among the top 5 engineering schools in France.
-
+---
 #### TPTSIC: Secure-IC
 <!---?image=https://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/Secure-IC_presentation_one_slide.svg&size=auto&title=Secure-IC -->
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/Secure-IC_presentation_one_slide.svg" width="700"/>
