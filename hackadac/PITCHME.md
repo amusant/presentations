@@ -30,12 +30,14 @@ Paris, FRANCE </br>
 - All these IPs are specified/design separately by different design teams.
 - Security bugs arise from their interaction during integration.
 - The goal is to find security bugs during design/integration phase.  
-
 ##### Hack@Dac
 - 1st Phase: An open source SoC Pulpino.
 - 2nd Phase: An open source SoC Pulpissimo.
 ---
 
+Note:
+Important point to stress is that our goal is to catch during integration 
+phase, before the chip goe sto foundry.
 #### First Things First: The Attacker Model
 
 - A clear idea of what are we protecting and from whom ?
@@ -48,8 +50,8 @@ Paris, FRANCE </br>
 	- e.g simple hardware adversery using AXI port 1, with Master ID 4, 
 	- e.g simple(unprivileged software adversery)
 Note:
-Remember to explain why it's for everyone: no sign-up, nothing to install.
-Just MD. Then git-commit.
+Importance of specifying things correctly. Second example shows teh specification 
+of a master among various masters using the same AXI port.
 ---
 #### First Things First: The Security Objective
 - Specification of security objectives with assertions:
@@ -59,9 +61,15 @@ Just MD. Then git-commit.
 - Example Security Objectives:
 	- `\(A_0,A_5\)` can't access `\({M_{10},M_{11}}\)`
 	- if `\(A_0,A_5\)` access  `\(M_{10}\)` implies `\(\overline{\{A_0,A_5\}}\)`  can't access `\({M_{10},M_{11}}\)`
-
+Note:
+Important to specify security objectives which can be directky used in code not 
+in text/word/excel format.
 ---?code=hackadac/src/assertions.sv&lang=verilog&title= Security Objectives SVA
-
+Note: Property/sequence they are system verilog assertion (sva) keyword. 
+|-> means implies. The first property shows that value read from jtag port 
+should not be the same as value read from processor. The sequence describes the password
+11000 in sva. The last property shows that password sequence implies data read from jtag 
+port should be equal to memory data.
 ---
 #### First Things First: Bug Classification
 - Functional Bugs
