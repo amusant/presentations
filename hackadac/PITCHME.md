@@ -5,7 +5,7 @@
 ###### <span style="color:#e49436">Differential Scanning Techniques for Detection of Security Vulnerabilities</span>
 
 <span style="font-family:Helvetica Neue; color blue;font-size:0.4em;font-weight:bold"> 
-Sumanta Chaudhuri, Michaël Timbert, Xuan Thuy Ngo, Sylvain Guilley</br>
+Michaël Timbert, Sumanta Chaudhuri, Xuan Thuy Ngo, Sylvain Guilley</br>
 Telecom ParisTech, Secure-IC</br>
 Paris, FRANCE </br>
 </b></span>
