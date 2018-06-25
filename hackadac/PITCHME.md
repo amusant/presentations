@@ -29,7 +29,7 @@ Paris, FRANCE </br>
 - Modern day SoCs incorporate hundreds of third party IPs.
 - All these IPs are specified/design separately by different design teams.
 - Security bugs arise from their interaction during integration.
-- The goal is to find security bugs during design/integration phase.
+- The goal is to find security bugs during design/integration phase.  
 
 ##### Hack@Dac
 - 1st Phase: An open source SoC Pulpino.
