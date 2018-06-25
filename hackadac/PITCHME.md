@@ -127,7 +127,7 @@ from interaction of different hardware/software blocks.
 ---?code=hackadac/src/pulpino.c&lang=asm&title=Differential Memory Scan : Pulpino
 
 --- 
-#### Our Method Applied to Pulpino
+#### Differential Memory Scan: Pulpino
 - Found Boot address modification bug
 	- The system boots from bootrom 0x8080, and runs.
 	- The attacker resets the SoC. and puts it in sleep mode (fetch_enable).
