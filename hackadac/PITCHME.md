@@ -274,13 +274,19 @@ from interaction of different hardware/software blocks.
     <td>Differential Code Coverage</td>
   </tr>
 </table>
+
+
+#### Drawbacks of our Methods:
+- Depends on Simulation. (i. enot static such as linting)
+- Needs a test already running from Secure Point of View.
+- We could not get a secure mode test running in the finals. 
 --- 
 #### Conclusion
 - SoC Designers integrate and create bugs.
 - We differentiate and debug.
 - Not very different from standard verification methodologies.
 - Capable of detecting both functional and RTL bugs.
-
+- Our methods are not static. 
 ---
 <span style="font-family:Helvetica Neue; color blue;font-size:2.0em;font-weight:bold; position:absolute;left:200px; top:200px;">
 Questions ?
