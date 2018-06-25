@@ -315,6 +315,7 @@ end
 - Not very different from standard verification methodologies.
 - Capable of detecting both functional and RTL bugs.
 - Our methods are not static. 
+	- Needs constrained random simulation setup and at least one secure testcase.
 ---
 <span style="font-family:Helvetica Neue; color blue;font-size:2.0em;font-weight:bold; position:absolute;left:250px; top:200px;">
 Questions ?
