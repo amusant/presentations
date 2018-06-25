@@ -76,6 +76,7 @@ Property/sequence they are system verilog assertion (sva) keyword.
 should not be the same as value read from processor. The sequence describes the password
 11000 in sva. The last property shows that password sequence implies data read from jtag 
 port should be equal to memory data.
+
 ---
 #### First Things First: Bug Classification
 - Functional Bugs
@@ -154,7 +155,7 @@ from interaction of different hardware/software blocks.
 
 ---
 #### Differential Code Coverage
-- A way to detect RTL Bugs.
+- A way to detect RTL trails of security Bugs.
 - Once a functional bug is detected we can enquire if it is in specification or due to a RTL bug.
 - To find RTL trace:
 	- first run some random tests and store code coverage.
