@@ -95,7 +95,7 @@ from interaction of different hardware/software blocks.
 	- Hacker Point of View
 
 -e.g
-- In HackaDac we assume simple HW adversary
+- In Hack@Dac we assume simple HW adversary
 	- set of attackers `\(A_0\)`=Processor, `\(A_1\)`=JTAG, `\(A_2\)`=SPI, `\(A_3\)`=GPIO
 	- Secure POV: Processor/Software `\(A_0\)`
 	- Hacker POV: Access from hardware pins. `\({A_1,A_2,A_3}\)`
@@ -106,6 +106,9 @@ from interaction of different hardware/software blocks.
 - Trustzone
 	- Secure POV: Software running in Secure World
 	- Hacker POV: Software/hardware 
+- Cache snoop control unit
+	- Secure POV: Processor AXI port.
+	- Hacker POV: Accelerator Coherency port from, NIC, DMA.
 
 ---?code=hackadac/src/diffscan.c&lang=asm&title=Differential Memory Scan : Pseudocode
 @[1](A set of memory zones)
