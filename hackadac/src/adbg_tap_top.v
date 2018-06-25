@@ -448,7 +448,7 @@ begin
 end
 always @ (*) begin
   if(counter == 5'b11111) begin
-    pwd_check = (tmp_pwd[31:0] == idcode_reg[31:0]);
+    pwd_check = (tmp_pwd[7:0] == idcode_reg[7:0]);
   end
     logic_reset = (idcode_reg[counter] != tmp_pwd[counter])? 1: 0;
 end
