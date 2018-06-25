@@ -43,8 +43,10 @@ Paris, FRANCE </br>
 	- Divide the attacker space into several sets. not necessarily disjoint.
 `$${A_0,A_1\ldots A_n} $$`
 
-	- clearly specify each set with SystemVerilog Assertions.
-	-e.g simple hardware adversary: 
+	- clearly specify each set with attributes/enumerated types.
+	- e.g simple hardware adversarya using JTAG port.
+	- e.g simple hardware adversery using AXI port 1, with Master ID 4, 
+	- e.g simple(unprivileged software adversery)
 Note:
 Remember to explain why it's for everyone: no sign-up, nothing to install.
 Just MD. Then git-commit.
@@ -58,6 +60,8 @@ Just MD. Then git-commit.
 	- `\(A_0,A_5\)` can't access `\({M_{10},M_{11}}\)`
 	- if `\(A_0,A_5\)` access  `\(M_{10}\)` implies `\(\overline{\{A_0,A_5\}}\)`  can't access `\({M_{10},M_{11}}\)`
 
+---?code=hackadac/src/assertions.sv&lang=verilog&title= Security Objectives SVA
+
 ---
 #### First Things First: Bug Classification
 - Functional Bugs
@@ -67,7 +71,7 @@ Just MD. Then git-commit.
 
 - RTL Bugs
 	- Arising from poor coding techniques.
-	- trying to meet other constraints (e.g timing)
+	- trying to meet other constraints (e.g timing, power)
 
 
 
@@ -81,6 +85,9 @@ from interaction of different hardware/software blocks.
 
 - Differential Code Coverage.
 	- A way to find RTL bugs.
+
+- Linting.
+	- Traditional RTL linters like SpyGlass.
 ---
 #### Differential Memory Scan
 - Point of Views (POV)
@@ -115,7 +122,6 @@ from interaction of different hardware/software blocks.
 
 
 ---?code=hackadac/src/pulpino.c&lang=asm&title=Differential Memory Scan : Pulpino
----?code=hackadac/src/assertions.sv&lang=verilog&title=Example Assertions
 
 --- 
 #### Our Method Applied to Pulpino

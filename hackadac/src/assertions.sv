@@ -1,5 +1,5 @@
 property secure_jtag;
-	@negedge clk) $sampled(jtag_data)!=$sampled(mem_data)
+	@(negedge clk) $sampled(jtag_data)!=$sampled(mem_data)
 endproperty
 
 sequence jtag_passwd; //11000101
@@ -7,6 +7,6 @@ sequence jtag_passwd; //11000101
 endsequence
 
 property secure_func_jtag;
-	@negedge clk) 
+	@(negedge clk) 
 	jtag_passwd |=> $sampled(jtag_data)==$sampled(mem_data)
 endproperty
