@@ -229,11 +229,36 @@ from interaction of different hardware/software blocks.
 
 
 ```
-
----?code=hackadac/src/adbg_tap_top.v&lang=verilog&title=Our Method Applied to Pulpino
-@[231](Passwprd check is set to 1 during reset)
----?code=hackadac/src/adbg_tap_top.v&lang=verilog&title=Our Method Applied to Pulpino
-@[451-455](Only Last 8 bits of the password are cheicked)
+---
+<p><span class="menu-title slide-title">Our Method Applied to Pulpino</span></p>
+<!---?code=hackadac/src/adbg_tap_top.v&lang=verilog&title=Our Method Applied to Pulpino -->
+```verilog
+// sequential part of the FSM
+always @ (posedge tck_pad_i or negedge trstn_pad_i)
+begin
+	if(trstn_pad_i == 0)
+		begin
+		TAP_state = `STATE_test_logic_reset;
+		pwd_check = 1'b0;
+		end
+	else
+		TAP_state = next_TAP_state;
+end
+```
+- Password check is set to 1 during reset
+<!---?code=hackadac/src/adbg_tap_top.v&lang=verilog&title=Our Method Applied to Pulpino-->
+```verilog
+    counter <= counter + 1'b1;
+  end
+end
+always @ (*) begin
+  if(counter == 5'b11111) begin
+    pwd_check = (tmp_pwd[7:0] == idcode_reg[7:0]);
+  end
+    logic_reset = (idcode_reg[counter] != tmp_pwd[counter])? 1: 0;
+end
+```
+- Only Last 8 bits of the password are cheicked
 - the attacker  will be able to pass one jtag instruction/data,
 - the attacker can reset every  time and write unlimited instructions
 ---
