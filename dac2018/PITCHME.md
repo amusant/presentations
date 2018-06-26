@@ -170,7 +170,7 @@ II) HPCArch1, HPCArch2  Stratix X, Ultrascale like.
 @[4](Replacing the jump to log10 function by jump to mod function)
 ---
 #### Cache Timing Attacks
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/lathist.svg" width="300"/> 
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/lathist.svg" width="400"/> 
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" height="300"/>
 - Attacks
 	- CTA to break ASLR
