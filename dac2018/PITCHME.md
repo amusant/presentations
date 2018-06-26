@@ -170,15 +170,13 @@ II) HPCArch1, HPCArch2  Stratix X, Ultrascale like.
 @[4](Replacing the jump to log10 function by jump to mod function)
 ---
 #### Cache Timing Attacks
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/lathist.svg" width="200"/> 
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" height="200"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/lathist.svg" width="300"/> 
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" height="300"/>
 - Attacks
 	- CTA to break ASLR
 	- CTA to guess program behaviour.
-		- to guess cryptographic keys
 - Countermeasures
 	- SoCFPGAs with ACP and without SMMU are vulnerable.
-	- A MMU can be programmed into FPGA.
 	- Blocking Cache access during cryptographic routines.
 ---
 #### Experiments: Cache Timing Attacks to break ASLR
