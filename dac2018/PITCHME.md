@@ -181,23 +181,6 @@ II) HPCArch1, HPCArch2  Stratix X, Ultrascale like.
 	- A MMU can be programmed into FPGA.
 	- Blocking Cache access during cryptographic routines.
 ---
-#### Rowhammer
-- Attacks
-	- Repeatedly reading a DRAM row within the refresh interval can cause bit-flips in the adjacent rows.
-	- Particularly easy from FPGA. High speed/low latency memory access.
-	- A maximum no. of memory accesses within the refresh interval.
-	- FPGAs have direct links to DDR. (no intermediate cache)
-- Countermeasures
-	- For effective attacks need to break ASLR first.
-	- Obfuscation of physical address (since linux kernel 4.0)
-	- Error correction codes (SECDED is  not enough.)
-	- Target Row Refresh
----
-#### Security Vulnerabilities
-@title[Piecemeal Tables]
-
-
----
 #### Experiments: Cache Timing Attacks to break ASLR
 - In the first phase, FPGA accelerator kernel scans the 
   memory space with a step of 4KBytes and offset equal to 
@@ -225,6 +208,20 @@ II) The differential ranking metric
 </b></span>
 ---
 #### Rowhammer
+- Attacks
+	- Repeatedly reading a DRAM row within the refresh interval can cause bit-flips in the adjacent rows.
+	- Particularly easy from FPGA. High speed/low latency memory access.
+	- A maximum no. of memory accesses within the refresh interval.
+	- FPGAs have direct links to DDR. (no intermediate cache)
+- Countermeasures
+	- For effective attacks need to break ASLR first.
+	- Obfuscation of physical address (since linux kernel 4.0)
+	- Error correction codes (SECDED is  not enough.)
+	- Target Row Refresh
+
+
+---
+#### Rowhammer: Generating Error Maps from FPGA
 <!--![diag](http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/rowhammer_issi_16x256.svg) {width=10%} -->
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/rowhammer_issi_16x256.svg" height="400"/> 
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/map.svg" height="400"/> 
