@@ -10,7 +10,7 @@ Telecom ParisTech</br>
 Paris, FRANCE </br>
 </b></span>
 
-<img src="assets/TelecomParisTech_logo_80.png" style="position:absolute; left:900px; top:-200px;" width="50"/>
+<img src="assets/TelecomParisTech_logo_80.png" style="position:absolute; left:900px; top:-200px;" width="100"/>
 ---
 #### Context, Scope & Attacker Models
 
