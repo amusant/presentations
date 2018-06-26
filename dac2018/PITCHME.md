@@ -169,6 +169,9 @@ II) HPCArch1, HPCArch2  Stratix X, Ultrascale like.
 ```
 @[4](Replacing the jump to log10 function by jump to mod function)
 ---
+#### Latency
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/lathist.svg" width="200"/> 
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" height="200"/>
 #### Cache Timing Attacks
 - Attacks
 	- CTA to break ASLR
@@ -178,10 +181,6 @@ II) HPCArch1, HPCArch2  Stratix X, Ultrascale like.
 	- SoCFPGAs with ACP and without SMMU are vulnerable.
 	- A MMU can be programmed into FPGA.
 	- Blocking Cache access during cryptographic routines.
----
-#### Latency
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/lathist.svg" width="400"/> 
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" height="400"/>
 ---
 #### Rowhammer
 - Attacks
