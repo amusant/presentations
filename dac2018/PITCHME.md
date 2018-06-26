@@ -198,63 +198,6 @@ II) HPCArch1, HPCArch2  Stratix X, Ultrascale like.
 #### Security Vulnerabilities
 @title[Piecemeal Tables]
 
-<table>
-  <tr>
-    <th>Attack Type</th>
-    <th>Arch1</th>
-    <th>Arch2</th>
-    <th>Arch3</th>
-    <th>Arch4</th>
-  </tr>
-  <tr>
-    <td>DMA through CM</td>
-    <td>@fa[check]</td>
-    <td>@fa[check]</td>
-    <td>@fa[times]</td>
-    <td>@fa[times]</td>
-  </tr>
-  <tr class="fragment">
-    <td>DMA through Cache</td>
-    <td>@fa[check]</td>
-    <td>@fa[check]</td>
-    <td>@fa[times]</td>
-    <td>@fa[times]</td>
-  </tr>
-  <tr class="fragment">
-    <td>DMA Buffer Overflow</td>
-    <td>@fa[check]</td>
-    <td>@fa[check]</td>
-    <td>@fa[check]</td>
-    <td>@fa[check]</td>
-  </tr>
-  <tr class="fragment">
-    <td>DMA SMMU Update</td>
-    <td>n.a</td>
-    <td>n.a</td>
-    <td>@fa[check]</td>
-    <td>@fa[check]</td>
-  </tr>
-  <tr class="fragment">
-    <td>CTA (ASLR)</td>
-    <td>@fa[check]</td>
-    <td>@fa[check]</td>
-    <td>@fa[times]</td>
-    <td>@fa[times]</td>
-  </tr>
-  <tr class="fragment">
-    <td>CTA (Program Behaviour)</td>
-    <td>@fa[check]</td>
-    <td>@fa[check]</td>
-    <td>@fa[check]</td>
-    <td>@fa[check]</td>
-  <tr class="fragment">
-    <td>Rowhammer Bit Flip</td>
-    <td>@fa[check]</td>
-    <td>@fa[check]</td>
-    <td>@fa[check]</td>
-    <td>@fa[check]</td>
-  </tr>
-</table>
 
 ---
 #### Experiments: Cache Timing Attacks to break ASLR
@@ -348,6 +291,64 @@ square represents 64KB.
     <td>10 s</td>
     <td>16 Hours</td>
     <td>NA</td>
+</table>
+
+<table style="position:absolute; left:500px; top:100px;">
+  <tr>
+    <th>Attack Type</th>
+    <th>Arch1</th>
+    <th>Arch2</th>
+    <th>Arch3</th>
+    <th>Arch4</th>
+  </tr>
+  <tr>
+    <td>DMA through CM</td>
+    <td>@fa[check]</td>
+    <td>@fa[check]</td>
+    <td>@fa[times]</td>
+    <td>@fa[times]</td>
+  </tr>
+  <tr class="fragment">
+    <td>DMA through Cache</td>
+    <td>@fa[check]</td>
+    <td>@fa[check]</td>
+    <td>@fa[times]</td>
+    <td>@fa[times]</td>
+  </tr>
+  <tr class="fragment">
+    <td>DMA Buffer Overflow</td>
+    <td>@fa[check]</td>
+    <td>@fa[check]</td>
+    <td>@fa[check]</td>
+    <td>@fa[check]</td>
+  </tr>
+  <tr class="fragment">
+    <td>DMA SMMU Update</td>
+    <td>n.a</td>
+    <td>n.a</td>
+    <td>@fa[check]</td>
+    <td>@fa[check]</td>
+  </tr>
+  <tr class="fragment">
+    <td>CTA (ASLR)</td>
+    <td>@fa[check]</td>
+    <td>@fa[check]</td>
+    <td>@fa[times]</td>
+    <td>@fa[times]</td>
+  </tr>
+  <tr class="fragment">
+    <td>CTA (Program Behaviour)</td>
+    <td>@fa[check]</td>
+    <td>@fa[check]</td>
+    <td>@fa[check]</td>
+    <td>@fa[check]</td>
+  <tr class="fragment">
+    <td>Rowhammer Bit Flip</td>
+    <td>@fa[check]</td>
+    <td>@fa[check]</td>
+    <td>@fa[check]</td>
+    <td>@fa[check]</td>
+  </tr>
 </table>
 --- 
 #### Conclusion
