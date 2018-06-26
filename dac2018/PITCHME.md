@@ -346,9 +346,9 @@ square represents 64KB.
  </br>  
  </br>  
  </br>  
+ </br>  
 - We discussed various possible attacks on current SoCFPGA Architectures.
 - Most of them arise from hardware/software interaction.
-- and attacks which were not known during design time.
 - Need to apply a security solution on a case-by-case basis.
 
 ---
