@@ -16,8 +16,8 @@ Paris, FRANCE </br>
 
 - SoC Security |
 	- Secure Boot |
-	- Digital Rights Management |
 	- Attacks Against OS |
+	- Digital Rights Management |
 - FPGA Security |
 	- Bitstream Security |
 	- Tampering |
@@ -47,10 +47,10 @@ Paris, FRANCE </br>
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" height="400"/>
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/ultrascale.svg" height="400"/> 
 <span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:40px; top:550px;">
-I) Arch. 1,2  Cyclone and Zynq like.
+I) EmbArch1, EmbArch2.  Cyclone and Zynq like.
 </b></span>
 <span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:500px; top:550px;">
-II) Arch 3,4  Stratix X, Ultrascale like.
+II) HPCArch1, HPCArch2  Stratix X, Ultrascale like.
 </b></span>
 
 <!--only inline/background images  work in pdf export -->
@@ -65,33 +65,15 @@ II) Arch 3,4  Stratix X, Ultrascale like.
 - TrustZone
 	- Framework encompassing both Hardware and Software
 - SoftWare
-	- Secure & Non-Secure World Abstractions
+	- Secure & Non-Secure World Abstractions.
 	- Monitor Mode which handles the transition from one worlds to another
 	- Secure TEEs (Trusted Execution Environments) run in the Secure World
 		- e.g SierraTEE, Toppers
-	- Rich OS Android, Linux, RTOS
 - Hardware
-	-	Each master can be Secure/Non-Secure/Per Transaction
 	-	Firewalls (Programmable at Runtime)
 	-	Cache Security Bit (33rd bit)
+	-   SMMU/IOMMU Fine grain (4KB) page based memory protection.
 
----
-
-#### Existing Security Measures: SoCFPGA
-
-- Memory Protection Unit
-	- can define memory zones with granularity.
-		- e.g 1MB in Cyclone V, 64MB in Zynq
-	- control access based on Address Range, Master Id, Master Port
-
-- Secure Cache Access
-	- Security State of the masters using ACP must be the same as that of the processor
-
-- System MMU/IOMMU 
-	- MMU is the main memory protection mechanism in OS/SoC.
-	- SMMU/IOMMU provides the same functionality for accelerators.
-	- Ease of programmability.
-	- Fine Grain Security for memory access (4KB)
 ---
 #### Architectural Features
 @title[Piecemeal Tables]
@@ -166,6 +148,26 @@ II) Arch 3,4  Stratix X, Ultrascale like.
 	- GCC like checks to detect buffer overflows. in OpenCL
 	- Block traffic during context switch.
 	
+---
+#### Experiments: DMA Code Injection
+
+-  The host program creates memory pressure by allocating arrays,
+ and using those arrays in memory.
+
+- In a separate process, the numpy module from python is loaded
+  which forces the load of the umath.so library.
+
+- The FPGA accelerator kernel scans through the CMA area for
+  the following string "e28fc600;e28cca44;e5bcfd68" which is the
+  signature of the log10 function.
+```asm
+00006418 <log10@plt>:
+    6418: 46c04778 ; <UNDEFINED> instruction: 0x46c04778
+    641c: e28fc600 add ip, pc, #0, 12
+    6420: e28cca44 add ip, ip, 0000068, 20 ; 0x44000
+    6424: e5bcfd68 ldr pc, [ip, #3432] ; 0xd68
+```
+@[4](Replacing the jump to log10 function by jump to mod function)
 ---
 #### Cache Timing Attacks
 - Attacks
@@ -254,23 +256,6 @@ II) Arch 3,4  Stratix X, Ultrascale like.
   </tr>
 </table>
 
----
-#### Experiments: DMA Code Injection
-
--  The host program creates memory pressure by allocating arrays,
- and using those arrays in memory.
-
-- In a separate process, the numpy module from python is loaded
-  which forces the load of the umath.so library.
-
-- The FPGA accelerator kernel scans through the CMA area for
-  the following string âe28fc600;e28cca44;e5bcfd68â which is the
-  signature of the log10 function.
-
-
-
----?code=assets/src/dma0.asm&lang=asm&title=Disassembly of log10 function at python(2.7) numpy umath.so library
-@[4](Replacing the jump to log10 function by jump to mod function)
 ---
 #### Experiments: Cache Timing Attacks to break ASLR
 - In the first phase, FPGA accelerator kernel scans the 
