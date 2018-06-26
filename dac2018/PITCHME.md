@@ -299,7 +299,7 @@ square represents 64KB.
 ---
 #### Synthesis Results & Runtime
 
-<table style="position:absolute; left:0px; top:0px;">
+<table style="position:absolute; left:-100px; top:300px;">
   <tr>
     <th>Attack Type</th>
     <th>EXP. A</th>
