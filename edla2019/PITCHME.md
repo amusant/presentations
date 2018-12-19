@@ -29,7 +29,6 @@ Paris, FRANCE </br>
 	- The output feature maps are streamed back to the main memory.
 	- Accelerator handles one layer at a time.
 
----
 <!--#### Existing Attacks in the SoC Domain-->
 
 
@@ -40,6 +39,7 @@ Paris, FRANCE </br>
 Overall Hardware Architecture.
 </b></span>
 
+---
 
 #### Accelerator: Architecture Overview
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/edla/arch2.svg" height="400"/> 
