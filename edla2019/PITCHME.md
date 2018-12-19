@@ -73,7 +73,7 @@ Overall Hardware Architecture.
 Detailed architecture of the convolutional lanes.
 </b></span>
 ---
-#### Results
+#### Results:2x Improvement in Speed for 10% loss in IOU.
 <!--![diag](http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/rowhammer_issi_16x256.svg) {width=10%} -->
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/edla/result_arch_base.svg" height="225"/> 
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/edla/result_arch8.svg" height="225"/> 
@@ -88,6 +88,5 @@ a) Base Architecture
 (c) Architecture 12
 </b></span>
 
-~2x Improvement in Speed for 10% loss in IOU.
 <!--![diag](http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/map.svg) {width=10%} -->
 ---
