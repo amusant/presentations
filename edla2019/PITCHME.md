@@ -12,40 +12,30 @@ Paris, FRANCE </br>
 
 <img src="assets/TelecomParisTech_logo_80.png" style="position:absolute; left:900px; top:-200px;" width="100"/>
 ---
-#### Context, Scope & Attacker Models
+#### Binarized CNNs & XNOR-net
 
-- SoC Security |
-	- Secure Boot |
-	- Attacks Against OS |
-	- Digital Rights Management |
-- FPGA Security |
-	- Bitstream Security |
-	- Tampering |
-	- Power/EM Side Channels |
-- Scope |
-	- Attacks on OS mounted from the FPGA  |
-- Attacker Model |
-	- Scenario A : High Performance Computing |
-	- Scenario B : Embedded |
+- Binarization
+	- Both Feature Maps and Coefficients can be Binarized with little loss in Precision
+	- Works for smaller neural nets Lenet, Alexnet
+	- 
+- We prpose A Mixed prcision Neural network where we can mix layers with
+	- Both Features and Weights are Floating Point(16 bit)
+	- Features are in Floating point, Weights are binary.
+	- Both Features and weights are Binary.
 ---
-#### Attacker Model
-- HPC |
-	- The attacker is an ordinary user of a SoCFPGA cluster |
-	- She executes her code under the guise of compute intensive tasks. |
-	- e.g AMAZON AWS |
-	- Concerned FPGAs: Zynq UltraScale+, Arria W, Stratix X |
+#### A Streaming Accelerator
+- Streaming Accelerator
+	- The input feature maps are streamed from main memmory to the accelerator.
+	- The output feature maps are streamed back to the main memory.
+	- Accelerator handles one layer at a time.
 
-- Embedded |
-	- The attacker is a third-party Supplier  of FPGA libraries (App Store) |
-	- The User himself trying to break DRMs. |
-	- concerned FPGAs: Cyclone V, Zynq 7000 |
 ---
 <!--#### Existing Attacks in the SoC Domain-->
 
 
 #### SoCFPGA: Architecture Overview
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" height="400"/>
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/ultrascale.svg" height="400"/> 
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/edla/arch1.svg" height="400"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/edla/arch2.svg" height="400"/> 
 <span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:40px; top:550px;">
 I) EmbArch1, EmbArch2.  Cyclone and Zynq like.
 </b></span>
