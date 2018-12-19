@@ -17,7 +17,6 @@ Paris, FRANCE </br>
 - Binarization
 	- Both Feature Maps and Coefficients can be Binarized with little loss in Precision
 	- Works for smaller neural nets Lenet, Alexnet
-	- 
 - We prpose A Mixed prcision Neural network where we can mix layers with
 	- Both Features and Weights are Floating Point(16 bit)
 	- Features are in Floating point, Weights are binary.
