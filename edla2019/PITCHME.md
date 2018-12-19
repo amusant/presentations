@@ -31,6 +31,7 @@ Paris, FRANCE </br>
 
 <!--#### Existing Attacks in the SoC Domain-->
 
+---
 
 #### Accelerator: Architecture Overview
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/edla/arch1.svg" height="400"/>
