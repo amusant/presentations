@@ -84,8 +84,10 @@ a) Base Architecture
 <span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:400px; top:400px;">
 (b) Architecture 8
 </b></span>
-<span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:600px; top:400px;">
+<span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:700px; top:400px;">
 (c) Architecture 12
 </b></span>
+
+~2x Improvement in Speed for 10% loss in IOU.
 <!--![diag](http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/map.svg) {width=10%} -->
 ---
