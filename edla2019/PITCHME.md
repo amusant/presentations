@@ -33,23 +33,20 @@ Paris, FRANCE </br>
 <!--#### Existing Attacks in the SoC Domain-->
 
 
-#### SoCFPGA: Architecture Overview
+#### Accelerator: Architecture Overview
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/edla/arch1.svg" height="400"/>
+<span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:40px; top:550px;">
+<span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:500px; top:550px;">
+Overall Hardware Architecture.
+</b></span>
+
+
+#### Accelerator: Architecture Overview
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/edla/arch2.svg" height="400"/> 
 <span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:40px; top:550px;">
-I) EmbArch1, EmbArch2.  Cyclone and Zynq like.
-</b></span>
 <span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:500px; top:550px;">
-II) HPCArch1, HPCArch2  Stratix X, Ultrascale like.
+Detailed architecture of the convolutional lanes.
 </b></span>
-
-<!--only inline/background images  work in pdf export -->
-<!--+++?image=https://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg&size=auto 60% -->
-<!--<span style="color:gray; font-size:0.7em">SoCFPGA Architectures II<b></b></span> -->
-<!--@title[Les fabricants] -->
-<!--#### SoCFPGA: Architecture Overview II-->
-<!--<img src="http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/zynqcyclone.svg" width="400"/>  -->
-
 ---
 #### Existing Counter-Measures in the SoCFPGA : TrustZone
 - TrustZone
