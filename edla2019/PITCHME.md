@@ -75,8 +75,8 @@ Detailed architecture of the convolutional lanes.
 ---
 #### Results
 <!--![diag](http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/rowhammer_issi_16x256.svg) {width=10%} -->
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/edla/result_arch_base.svg" height="400"/> 
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/edla/result_arch8.svg" height="400"/> 
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/edla/result_arch_base.svg" height="200"/> 
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/edla/result_arch8.svg" height="200"/> 
 <span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:20px; top:600px;">
 a) Error rate with Refresh Interval
 </b></span>
