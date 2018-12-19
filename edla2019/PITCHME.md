@@ -83,8 +83,9 @@ a) Base Architecture
 </b></span>
 <span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:320px; top:500px;">
 (b) Architecture 12
+</b></span>
 <span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:520px; top:500px;">
-(b) Architecture 8
+(c) Architecture 8
 
 </b></span>
 <!--![diag](http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/map.svg) {width=10%} -->
