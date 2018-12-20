@@ -40,7 +40,7 @@ Tiny Yolo Network.
 
 ---
 
-#### Tiny Yolo: Intersection Over Union
+#### Tiny Yolo: Intersection Over Union (IOU)
 <img src="http://perso.telecom-paristech.fr/~chaudhur/images/edla/n11.png" height="400"/>
 <span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:40px; top:550px;">
 <span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:500px; top:550px;">
@@ -69,6 +69,14 @@ Results of Training with different archietctures.
 <span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:40px; top:550px;">
 <span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:500px; top:550px;">
 Overall Hardware Architecture.
+</b></span>
+
+---
+#### Accelerator: Image To Matrix
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/edla/im2col.svg" height="400"/>
+<span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:40px; top:550px;">
+<span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:500px; top:550px;">
+Image to Matrix Transformation.
 </b></span>
 
 ---
