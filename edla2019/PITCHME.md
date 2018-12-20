@@ -13,7 +13,7 @@ Paris, FRANCE </br>
 <img src="assets/TelecomParisTech_logo_80.png" style="position:absolute; left:900px; top:-200px;" width="100"/>
 ---
 #### Convolutional Neural Networks
-<img src="http://perso.telecom-paristech.fr/~chaudhur/images/edla/cnn.svg" height="600"/>
+<img src="http://perso.telecom-paristech.fr/~chaudhur/images/edla/cnn.svg" height="550"/>
 <span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:40px; top:550px;">
 <span style="font-family:Helvetica Neue; color blue;font-size:0.5em;font-weight:bold; position:absolute;left:500px; top:550px;">
 Tiny Yolo Network.
