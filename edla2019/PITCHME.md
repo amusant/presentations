@@ -113,3 +113,16 @@ a) Base Architecture
 
 <!--![diag](http://perso.telecom-paristech.fr/~chaudhur/images/hsa_security/map.svg) {width=10%} -->
 ---
+#### 
+- Experiments are done in Pynq-Z1 board. from Xilinx.
+	- 
+	- The output feature maps are streamed back to the main memory.
+	- Accelerator handles one layer at a time.
+- Previous Work:
+	- Traffic Sign Recognition Network 
+	- Done on Cyclone V FPGA
+	- OpenCL High level Synthesized program
+	- First Prize in Intel Innovate Contest 2017.
+	- [video] (https://www.youtube.com/watch?v=ePiQd8jrHkI)
+<!--#### Existing Attacks in the SoC Domain-->
+
